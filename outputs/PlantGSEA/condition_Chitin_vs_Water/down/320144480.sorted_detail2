@@ -1,0 +1,467 @@
+CYTOCHROME_P450_CYP714A	2	Cytochrome P450 ,CYP714A	1	1.04e-3	5.73e-3	AT5G24910
+FLAVONOID_BIOSYNTHESIS	33	flavonoid biosynthesis	1	0.0118	0.0118	AT5G13930
+C2C2-GATA_TRANSCRIPTION_FACTOR_FAMILY	30	C2C2-Gata Transcription Factor Family	1	0.0107	0.0295	AT3G06740
+KEGG_CIRCADIAN_RHYTHM_-_PLANT	29	 Circadian rhythm - plant	1	0.0104	0.0432	AT5G13930
+KEGG_FLAVONOID_BIOSYNTHESIS	19	 Flavonoid biosynthesis	1	6.93e-3	0.0432	AT5G13930
+HOMEOBOX_TRANSCRIPTION_FACTOR_FAMILY	91	Homeobox Transcription Factor Family	1	0.0315	0.0578	AT3G01470
+NARINGENIN-CHALCONE_SYNTHASE_ACTIVITY	1	GO:0016210   naringenin-chalcone synthase activity,    GOslim:molecular_function	1	6.95e-4	0.0798	AT5G13930
+TETRAPYRROLE_BINDING	406	GO:0046906   tetrapyrrole binding,    GOslim:molecular_function	2	8.36e-3	0.1429	AT3G48280 AT5G24910
+SEQUENCE-SPECIFIC_DNA_BINDING	400	GO:0043565   sequence-specific DNA binding,    GOslim:molecular_function	2	8.13e-3	0.1429	AT3G01470 AT3G06740
+OXIDOREDUCTASE_ACTIVITY,_ACTING_ON_PAIRED_DONORS,_WITH_INCORPORATION_OR_REDUCTION_OF_MOLECULAR_OXYGEN	461	GO:0016705   oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen,    GOslim:molecular_function	2	0.0107	0.1429	AT3G48280 AT5G24910
+CATION_BINDING	3005	GO:0043169   cation binding,    GOslim:molecular_function	4	0.0149	0.1429	AT3G48280 AT5G24910 AT1G22990 AT3G06740
+ELECTRON_CARRIER_ACTIVITY	522	GO:0009055   electron carrier activity,    GOslim:molecular_function	2	0.0135	0.1429	AT3G48280 AT5G24910
+IRON_ION_BINDING	499	GO:0005506   iron ion binding,    GOslim:molecular_function	2	0.0124	0.1429	AT3G48280 AT5G24910
+TRANSCRIPTION_REGULATORY_REGION_SEQUENCE-SPECIFIC_DNA_BINDING	17	GO:0000976   transcription regulatory region sequence-specific DNA binding,    GOslim:molecular_function	1	6.24e-3	0.1429	AT3G01470
+HEME_BINDING	373	GO:0020037   heme binding,    GOslim:molecular_function	2	7.11e-3	0.1429	AT3G48280 AT5G24910
+METAL_ION_BINDING	2829	GO:0046872   metal ion binding,    GOslim:molecular_function	4	0.0121	0.1429	AT3G48280 AT5G24910 AT1G22990 AT3G06740
+OXYGEN_BINDING	234	GO:0019825   oxygen binding,    GOslim:molecular_function	2	2.88e-3	0.1429	AT3G48280 AT5G24910
+ION_BINDING	3006	GO:0043167   ion binding,    GOslim:molecular_function	4	0.0149	0.1429	AT3G48280 AT5G24910 AT1G22990 AT3G06740
+KEGG_BIOSYNTHESIS_OF_PHENYLPROPANOIDS	247	 Biosynthesis of phenylpropanoids	1	0.0829	0.2303	AT5G13930
+PROTEIN_HOMODIMERIZATION_ACTIVITY	92	GO:0042803   protein homodimerization activity,    GOslim:molecular_function	1	0.0318	0.2815	AT3G01470
+TRANSITION_METAL_ION_BINDING	2298	GO:0046914   transition metal ion binding,    GOslim:molecular_function	3	0.04	0.328	AT3G48280 AT5G24910 AT3G06740
+NEGATIVE_REGULATION_OF_REDUCTIVE_PENTOSE-PHOSPHATE_CYCLE	3	GO:0080153   negative regulation of reductive pentose-phosphate cycle,    GOslim:biological_process	1	1.39e-3	0.3987	AT2G47400
+CHALCONE_BIOSYNTHETIC_PROCESS	1	GO:0009715   chalcone biosynthetic process,    GOslim:biological_process	1	6.95e-4	0.3987	AT5G13930
+KETONE_BIOSYNTHETIC_PROCESS	3	GO:0042181   ketone biosynthetic process,    GOslim:biological_process	1	1.39e-3	0.3987	AT5G13930
+CHALCONE_METABOLIC_PROCESS	1	GO:0009714   chalcone metabolic process,    GOslim:biological_process	1	6.95e-4	0.3987	AT5G13930
+FRUIT	964	PO:0009001 fruit	3	3.8e-3	0.4178	AT3G01470 AT4G35190 AT5G13930
+RESPONSE_TO_DISACCHARIDE_STIMULUS	212	GO:0034285   response to disaccharide stimulus,    GOslim:biological_process	2	2.38e-3	0.4555	AT2G47400 AT5G13930
+RESPONSE_TO_SUCROSE_STIMULUS	209	GO:0009744   response to sucrose stimulus,    GOslim:biological_process	2	2.32e-3	0.4555	AT2G47400 AT5G13930
+RUBIN_LBD38OX-N/WT-N_DN	341	Down-regulated by LBD38OX -N vs. WT -N (Dataset 1 PubmedID:19933203)	2	5.98e-3	0.4662	AT4G35190 AT5G02230
+XIN_ABA-ROP10-1_UP	341	Induced by ABA in rop10-1 (Table S 3 PubmedID:16258012)	2	5.98e-3	0.4662	AT3G01470 AT5G02230
+ROWAN_35S-PAP1-D8/D7_LEAVES_GH-EMPERATURE_LOW-LIGHT_UP	8	Up-regulated-in expression of anthocyanin and flavonol biosynthetic genes in 35S:PAP1 (ratio day 8/day 7) and control leaves of Arabidopsis thaliana Columbia in response to gh-emperature low-light (HTLL; days 2 and 7) conditions and after return to initial low-temperature highlight. (LTHL) conditions (days 1 and 8). (Table 2 PubmedID:19192188)	1	3.12e-3	0.4662	AT5G13930
+KRAM_NECTARY_MLN/ILN_UP	186	Up -regulated genes displaying differential expression between mature and immature lateral nectaries- MLN/ ILN (Table S9 PubmedID:19604393)	2	1.84e-3	0.4662	AT3G60780 AT3G01470
+YOUICHI_6T_HIGH-ACCUMULATION-PIGMENT_UP	14	Increased expression levels  in 6 transformants with high accumulation of pigments (Table S1 PubmedID:18980645)	1	5.2e-3	0.4662	AT5G13930
+RUBIN_LBD37OX-N/WT-N_DN	327	Down-regulated by LBD37OX -N vs. WT -N (Dataset 1 PubmedID:19933203)	2	5.52e-3	0.4662	AT4G35190 AT5G02230
+KURIHARA_DDC_UP	226	Upregulated in ddc. (Table S3 PubmedID:18805399)	2	2.7e-3	0.4662	AT5G13930 AT5G02230
+KRAM_NECTARY_MLN/MMN_UP	143	Up -regulated genes displaying differential expression between mature and immature lateral nectaries-MLN/MMN. (Table S9 PubmedID:19604393)	2	1.1e-3	0.4662	AT3G60780 AT3G01470
+ROWAN_35S-PAP1-D2/D1_LEAVES_GH-EMPERATURE_LOW-LIGHT_DN	11	Down-regulated-in expression of anthocyanin and flavonol biosynthetic genes in 35S:PAP1 (ratio day 2/day 1) and control leaves of Arabidopsis thaliana Columbia in response to gh-emperature low-light (HTLL; days 2 and 7) conditions and after return to initial low-temperature highlight. (LTHL) conditions (days 1 and 8). (Table 2 PubmedID:19192188)	1	4.16e-3	0.4662	AT5G13930
+LUKOWITZ_WT_YDA-2_DN	2	Down-regulated gene Expression in Wild-type and yda-2 (Table S2 PubmedID:14718171)	1	1.04e-3	0.4662	AT5G13930
+SCHMID_LFY-DEPENDENT_ACT	10	Activated-newly identified genes that are activated in a LFY-dependent manner (Table 2 PubmedID:14573523)	1	3.82e-3	0.4662	AT5G24910
+PEREZ-AMADOR_DST1-PARENTAL-PLANT_UP	17	Genes with Increased mRNA Levels in dst1 versus Parental Plants (Table2 PubmedID:11752382)	1	6.24e-3	0.4662	AT5G13930
+KLEINE_HY5-MUTANT/WT_GROWTH-LIGHT_UP	290	Up-regulated at least 2-fold different in the hy5 mutant compared to wild type  in growth light conditions (100 ?mol photons m-2 s-1) (Table S4 PubmedID:17478635)	2	4.37e-3	0.4662	AT5G13930 AT1G22990
+ZHANG_SEED_DIFF	546	Preferentially expressed in seed (Table S 7 PubmedID:18539592)	2	0.0147	0.5464	AT5G24910 AT1G22990
+ROBINSON_LOW-TEMPERATURE_MOST_DIFF	25	Expression profiles of the 25 Arabidopsis genes most significantly differentially regulated. (Table2 PubmedID:18808718)	1	9e-3	0.5464	AT5G13930
+BROWN_UV-B_WT_UP	39	Induced by UV-B in wild type (Table S2 PubmedID:16330762)	1	0.0138	0.5464	AT5G13930
+SKIRYCZ_OSMOTIC-STRESS_DIFF	39	Genes involved in the biological processes affected by osmotic stress Expression changes are presented as log (Table 1 PubmedID:19906889)	1	0.0138	0.5464	AT5G13930
+CHANG_TSA_DN	34	TSA downregulated (TableS1 PubmedID:15516340)	1	0.0121	0.5464	AT5G13930
+SOOKYUNG_VIP5/FLC-MUTANT_UP	30	Upregulated in the vip5 mutants relative to the flc mutant. (Table S1 PubmedID:15472079)	1	0.0107	0.5464	AT4G35190
+ROMERO_TEV_TEV-AT-INFECTED_UP	497	Upregulated genes between TEV and TEV-at infected plants (TableS2 PubmedID:18545680)	2	0.0123	0.5464	AT3G01470 AT1G22990
+ROBINSON_COLD_DIFF	29	Expression profiles of previously characterised cold-regulated genes (Table3 PubmedID:18808718)	1	0.0104	0.5464	AT5G13930
+ROMERO_SOM1_UP	32	SOM1-up (TableS4 PubmedID:18545680)	1	0.0114	0.5464	AT1G22990
+PERERA_DROUGHT_UP	42	Commonly up regulated (> 2fold) with drought (Table S7 PubmedID:18849493)	1	0.0148	0.5464	AT1G22990
+ZENTELLA_GA_GA1-3_UP	32	Up-GA-Responsive Genes in ga1-3 Data Set with Significant P Values (Table S1 PubmedID:17933900)	1	0.0114	0.5464	AT3G01470
+OKAMOTO_ONLY-CYP707A1A2A3-TRIPLE-MUTANT_DRY-SEED_UP	42	Upregulated genes in only cyp707a1a2a3 triple mutant dry seeds (Table S3 PubmedID:20579310)	1	0.0148	0.5464	AT5G24910
+WALLEY_5MIN_WOUNDING_DN	43	Down-regulated Genes by 5 min wounding (Table S1 PubmedID:17953483)	1	0.0152	0.5464	AT5G13930
+SOOKYUNG_VIP6/FLC-MUTANT_UP	31	Upregulated in the vip6 mutants relative to the flc mutant. (Table S1 PubmedID:15472079)	1	0.0111	0.5464	AT4G35190
+TRANSFERASE_ACTIVITY,_TRANSFERRING_ACYL_GROUPS_OTHER_THAN_AMINO-ACYL_GROUPS	232	GO:0016747   transferase activity, transferring acyl groups other than amino-acyl groups,    GOslim:molecular_function	1	0.0781	0.5606	AT5G13930
+IDENTICAL_PROTEIN_BINDING	217	GO:0042802   identical protein binding,    GOslim:molecular_function	1	0.0732	0.5606	AT3G01470
+ROMERO_TEV-AT/TEV_UP	51	Transcription factors and regulators, upregulated in TEV-at vs. TEV (TableS5 PubmedID:18545680)	1	0.0179	0.6005	AT3G01470
+ALONSO_ETHYLENE_UP	628	Induced regualted genes to Ethylene (Table S4 PubmedID:12893945)	2	0.0192	0.6005	AT4G35190 AT5G13930
+RIDER_PKL_UP	53	Up-regulated on exhibit PKL-dependent transcription based on the criteria (Pkl vs. Wt p < 0.05 ?? Upkl vs. Uwt p < 0.05) and for which the corresponding transcript level is elevated two-fold or more in pkl seeds in both the absence and presence of uniconazole-P. (Table S1a PubmedID:12834400)	1	0.0186	0.6005	AT5G13930
+OLMEDO_ETHYLENE_UP	50	Induced transcripts(top 50) by ethylene (Table  S3 PubmedID:16920797)	1	0.0176	0.6005	AT4G35190
+ALVES-FERREIRA_AP3ES_DN	645	Down-regulated genes -ap3es (TableS1 PubmedID:17905860)	2	0.0201	0.6116	AT5G13930 AT1G22990
+SOZZANI_CHIP-CHIP_SHR-TIME-COURSE_DIFF	65	List of of genes found by ChIP-chip and differentially expressed in SHR time course (Table S8 PubmedID:20596025)	1	0.0227	0.6402	AT3G01470
+ZIMMERLI_BABA/WT-TREATED_UP	677	Upregulated by BABA-treated/water-treated (TableS1 PubmedID:18047473)	2	0.0221	0.6402	AT5G13930 AT5G02230
+MANDAOKAR_JASMONATE_IATE_TFS_UP	67	Late induced TFs in Jasmonate responsive transcription factors (Table S3 PubmedID:16805732)	1	0.0234	0.6402	AT3G01470
+LORRAIN_GO_PIF4PIF5_UP	68	Up-regulated gene Ontology (GO) terms enriched in the pif4pif5-affected genes. (Table S2 PubmedID:19619162)	1	0.0237	0.6402	AT5G13930
+KURIHARA_RDR2-1_UP	70	Upregulated in rdr2-1. (Table S2 PubmedID:18805399)	1	0.0244	0.6407	AT5G13930
+BROWN_UVR8_HY5_UP	72	Induced regulated by UVR8 and HY5 (Table S2 PubmedID:16330762)	1	0.0251	0.6412	AT5G13930
+CHODAVARAPU_GT1000GENESSTARTSTOPEXPRESSION_DIFF	74	Diff-The number of unique hits per million are shown for Arabidopsis genes greater than 1000 bases long in wild type shoots.  A value of 0 indicates that, at the level of sequencing depth used in this work, no reads aligning uniquely to that particular transcript were found. (Table S2 PubmedID:20512117)	1	0.0258	0.6417	AT5G13930
+LISTER_RDD_DN	76	Rdd downregulated (TableS13 PubmedID:18423832)	1	0.0264	0.6422	AT3G60780
+PROTEIN_DIMERIZATION_ACTIVITY	357	GO:0046983   protein dimerization activity,    GOslim:molecular_function	1	0.1177	0.6512	AT3G01470
+OXIDOREDUCTASE_ACTIVITY	1687	GO:0016491   oxidoreductase activity,    GOslim:molecular_function	2	0.1132	0.6512	AT3G48280 AT5G24910
+TRANSCRIPTION_REGULATOR_ACTIVITY	1738	GO:0030528   transcription regulator activity,    GOslim:molecular_function	2	0.119	0.6512	AT3G01470 AT3G06740
+SEQUENCE-SPECIFIC_DNA_BINDING_TRANSCRIPTION_FACTOR_ACTIVITY	1680	GO:0003700   sequence-specific DNA binding transcription factor activity,    GOslim:molecular_function	2	0.1124	0.6512	AT3G01470 AT3G06740
+TRANSFERASE_ACTIVITY,_TRANSFERRING_ACYL_GROUPS	298	GO:0016746   transferase activity, transferring acyl groups,    GOslim:molecular_function	1	0.0992	0.6512	AT5G13930
+LEIVAR_SSTF-C6_WT-R1-WT-RC-PIFQ-D/WT-D_UP	82	Induced SSTF Class 6 genes that are Induced in WT-R1, WT-Rc and/or pifq-D relative to WT-D.  (Dataset3 PubmedID:19920208)	1	0.0285	0.6586	AT5G13930
+HU_WT-RC15/WT-D_UP	769	Up-regulated 2-fold in WT-Rc15/WT-D (Table S1 PubmedID:19529817)	2	0.028	0.6586	AT4G35190 AT5G24910
+FAUTEUX_SILICON_INFECTED-ERYSIPHE-CICHORACEARUM_UP	91	Up-regulated (1.5-fold change, p = 0.01) by silicon supply in Arabidopsis plants infected with Erysiphe cichoracearum (Table S1 PubmedID:17082308)	1	0.0315	0.6728	AT3G48280
+LIU_AGL24_UP	87	Upregulated -AGL24 -genes by microarray analysis (Table S1 PubmedID:18339670)	1	0.0302	0.6728	AT5G02230
+LISTER_DDC_DN	89	Ddc downregulated (TableS11 PubmedID:18423832)	1	0.0308	0.6728	AT5G24910
+SEHR_STEM-BASE_UP	92	Up-Genes preferentially expressed at the stem base. (Table S2 PubmedID:20579310)	1	0.0318	0.6728	AT5G13930
+SCHMID_COL_UP	101	Induced genes in the overlap between top 500 genes ranked by change between day 0 and 7 in Col (Table S4 PubmedID:14573523)	1	0.0349	0.6902	AT5G24910
+BJORN_6H_14/20C-PFDR_DIFF	98	Significant changes after 6 h at 14 centigrade when compared to the 20 centigrade controls (PFDR   0.01 in the LIMMA test) (Table 1 PubmedID:18088337)	1	0.0339	0.6902	AT5G13930
+SCHMID_0-7D_COL_UP	101	Induced genes overlap between top 500 genes ranked by change between day 0 and 7 in Col (Table S4 PubmedID:14573523)	1	0.0349	0.6902	AT5G24910
+JURGEN_CAT5_STEM_UP	105	Cat 5 (linear up) in stem expression cluster (Arabidopsis) (TableS4 PubmedID:15918878)	1	0.0362	0.6902	AT3G01470
+MATSUI_4FC_UP	103	Singificance_Up&>4.0FC (S 02 PubmedID:15668208)	1	0.0356	0.6902	AT2G47400
+BERGMANN_N-YDA_UP	111	Up regulated in ?N-YDA (Table S4 (A) PubmedID:15178800)	1	0.0382	0.7011	AT4G35190
+TIWARI_6X2_BOTH-PLATFORM_DN	921	Down-6x2-List of genes that are upregulated or downregulated in both the platforms. (Table S3 PubmedID:20406451)	2	0.039	0.7011	AT5G24910 AT1G22990
+BERGMANN_YDA_DN	111	Down regulated in yda (Table S4 (A) PubmedID:15178800)	1	0.0382	0.7011	AT4G35190
+KURIHARA_AGO1-25_UP	943	Upregulated genes in ago1-25. (Table S2 PubmedID:19633021)	2	0.0407	0.7101	AT5G13930 AT1G22990
+XIN_ABA-ROP10-1_NOT-WT_UP	119	Induced by ABA in rop10-1but not in wild-type (Ws) (Table S 6 PubmedID:16258012)	1	0.0409	0.7101	AT3G01470
+ROOT_ELONGATION_ZONE	37	PO:0025181 root elongation zone	1	0.0131	0.7216	AT5G13930
+PESARESI_PSAE1-3MUTANT/WS-2_DN	129	Down-regulated in the psae1-3 mutant compared to WS-2 (Table S6 PubmedID:19706797)	1	0.0443	0.7322	AT5G13930
+HU_WT-RC50/WT-D_UP	1003	Up-regulated 2-fold in WT-Rc50/WT-D (Table S1 PubmedID:19529817)	2	0.0455	0.7322	AT4G35190 AT5G24910
+RICHTER_GNL-OX/COL-0II_DN	2443	Down-[GNL-OX] vs [Col-0II] (Table S2 PubmedID:20844019)	3	0.0467	0.7322	AT4G35190 AT3G06740 AT5G02230
+RONEMUS_DCL1-9_1.5X_21D_UP	136	Up-regulated dcl1-9 1.5X 21d (ANOVA 0.01) (Table S4 PubmedID:16798886)	1	0.0466	0.7322	AT5G13930
+CHANDRAN_WT-T2_UP	973	Up-regulated-WT T2 (Worksheet S1 PubmedID:19176722)	2	0.0431	0.7322	AT5G13930 AT5G02230
+BJORN_CBF2_UP	133	Over-expressor of the response in CBF2 (Table  S7 PubmedID:18088337)	1	0.0456	0.7322	AT5G13930
+KEGG_METABOLIC_PATHWAYS	1234	 Metabolic pathways	1	0.3551	0.7397	AT5G13930
+LORRAIN_PIF4PIF5_UP	142	Up-regulated in pif4pif5-affected genes. FDR<0.05 (Table S1 PubmedID:19619162)	1	0.0486	0.7495	AT5G13930
+BINDING	11174	GO:0005488   binding,    GOslim:molecular_function	6	0.1475	0.77	AT3G01470 AT3G48280 AT5G24910 AT5G13930 AT1G22990 AT3G06740
+LEE_HY5_UP	152	Genes Positively Regulated by HY5 (Table 1 PubmedID:17337630)	1	0.0519	0.7881	AT5G13930
+SHIN_COL-0(R)/COL-0(D)_PIFQ(D)/COL-0(D)_DN	158	Down-regulated of shared DEGs between Col-0(R)/Col-0(D) and pifQ(D)/Col-0(D) (Table S1 PubmedID:19380720)	1	0.0539	0.7935	AT4G35190
+CHANG_AZA-DC+TSA_DN	157	Aza-dC+TSA downregulated (TableS1 PubmedID:15516340)	1	0.0536	0.7935	AT5G02230
+KANNO_DMS4/DRD1_UP	2610	Up-Genes differentially regulated in dms4 compared to drd1. (Table S3 PubmedID:20010803)	3	0.0552	0.8004	AT3G01470 AT5G13930 AT5G02230
+MUSTROPH_GO_HYPOXIC-STRESS_CELL-TYPE-UP	167	GO_more_induced-Differential gene expression analysis of hypoxic stress AND cell types (DatasetsS7 PubmedID:19843695)	1	0.0569	0.8126	AT5G13930
+RUBIN_WT-N/WT-FN_UP	1165	Up-regulated by WT -N vs. WT FN (Dataset 2 PubmedID:19933203)	2	0.0595	0.8149	AT4G35190 AT5G02230
+RUBIN_WT-FN/WT-N_DN	1164	Down-regulated by WT FN vs. WT -N (Dataset 1 PubmedID:19933203)	2	0.0594	0.8149	AT4G35190 AT5G02230
+JUENGER_CONSTITUTIVE-CANDIDATE-GENE_DIFF	173	Diff-Excel file containing constitutive candidate genes of interest identified from TAIR annotation, literature searches, or author interests. (Table S4 PubmedID:20302603)	1	0.0588	0.8149	AT3G01470
+RONEMUS_AGO1-9_21D_1.5X_UP	181	Up-regulated by ago1-9 21d 1.5X (ANOVA 0.01) (Table S4 PubmedID:16798886)	1	0.0615	0.8296	AT5G13930
+BABU_PPV-INFECTED-PROTOPLAST_RNA-VIRUSE_UP	202	Induced by infections of PPV and other positive sense RNA viruses (Table S8 PubmedID:18613973)	1	0.0683	0.8973	AT5G13930
+BLASING_4H-CARBON-FIXCATION_UP	201	Induced-4h-carbon fixcation (Table S 6 PubmedID:16299223)	1	0.068	0.8973	AT5G13930
+ALVES-FERREIRA_MS1-WHOLE-INFLORESCENCE_UP	1281	Up-regulated genes -ms1 (whole inflorescence) (TableS1 PubmedID:17905860)	2	0.0704	0.9126	AT3G60780 AT1G22990
+HU_YHB-RC50/WT-D_UP	1299	Up-regulated 2-fold in YHB-Rc50/WT-D (Table S1 PubmedID:19529817)	2	0.0722	0.9229	AT4G35190 AT5G24910
+LEGNAIOLI_ABA_TOC1-OX_MISS-EXPRESSED	218	ABA-related genes miss-expressed in TOC1-ox (Table S4 PubmedID:19816401)	1	0.0735	0.928	AT5G13930
+XIN_ABA-ROP10-1-WT_DN	222	Commonly activated and repressed by ABA in Ws and rop10-1 (Table S 8 PubmedID:16258012)	1	0.0748	0.9323	AT5G02230
+MERIGOUT_CO(NH2)2_NH4NO3_SHOOTT_UP	225	Upregulated in shoot between [CO(NH2)2]- and [NH4NO3]-Arabidopsis grown plants (reference) (TableS2 PubmedID:18508958)	1	0.0758	0.9324	AT5G13930
+PIGMENT_METABOLIC_PROCESS	360	GO:0042440   pigment metabolic process,    GOslim:biological_process	2	6.64e-3	0.9529	AT3G01470 AT5G13930
+REGULATION_OF_ANTHOCYANIN_BIOSYNTHETIC_PROCESS	18	GO:0031540   regulation of anthocyanin biosynthetic process,    GOslim:biological_process	1	6.58e-3	0.9529	AT5G13930
+MA_HYPOCOTYL_WL/D_DN	1401	Down-regulated in Hypocotyl WL Vs. D (TableS8 PubmedID:15888681)	2	0.0824	0.9529	AT4G35190 AT1G22990
+KRINKE_SA_UP	245	SA-induced by overlaps between clusters regulated positively by NPR1 and either positively or negatively by a n-butanol sensitive pathway in response to SA. (Table SII PubmedID:19304931)	1	0.0823	0.9529	AT1G22990
+ROMERO_SOM4_UP	234	SOM4-up (TableS4 PubmedID:18545680)	1	0.0787	0.9529	AT3G01470
+LEGNAIOLI_TOC1-OX/WT_UP	245	Increased  genes  in TOC1-ox compared with WT (Table S1 PubmedID:19816401)	1	0.0823	0.9529	AT5G13930
+ZENTELLA_DEX_VECTOR_DN	244	Down-DEX-Regulated Genes in the Vector Control Dataset (Table S3 PubmedID:17933900)	1	0.0819	0.9529	AT5G13930
+XIN_ABA-WT_UP	262	Induced by ABA in wild-type (Ws) (Table S 1 PubmedID:16258012)	1	0.0877	0.9689	AT5G02230
+RAMONELL_CRAB-SHELL-CHITIN-TREATED_SEEDLING_DN	259	Repressed at Least 1.5-Fold in the Crab Shell Chitin Mixture-Treated Seedlings (Table S 5 PubmedID:15923325)	1	0.0868	0.9689	AT4G35190
+MA_ROOT_WL/D_DN	1453	Down-regulated in Root WL Vs. D (TableS8 PubmedID:15888681)	2	0.0877	0.9689	AT4G35190 AT1G22990
+LEIVAR_SSTF-C4_WT-R1-WT-RC-PIFQ-D/WT-D_DN	254	Repressed SSTF Class 4 genes that are Repressed in WT-R1, WT-Rc and/or pifq-D relative to WT-D. (Dataset4 PubmedID:19920208)	1	0.0852	0.9689	AT5G24910
+KRAM_NECTARY_ILN_UP	270	Up -regulated genes displaying nectary-enriched expression profiles by ILN (Table S7 PubmedID:19604393)	1	0.0903	0.9856	AT3G60780
+DNA_BINDING	2383	GO:0003677   DNA binding,    GOslim:molecular_function	2	0.1985	0.9914	AT3G01470 AT3G06740
+JONES-RHOADES_RE1_DN	382	Dif1 down-regulated genes (TableS5 PubmedID:17937500)	1	0.1254	1	AT3G48280
+MA_COTYLEDON_WL/D_DN	1552	Down-regulated in Cotyledon WL Vs. D (TableS8 PubmedID:15888681)	1	0.4258	1	AT4G35190
+CELLULAR_LIPID_METABOLIC_PROCESS	1394	GO:0044255   cellular lipid metabolic process,    GOslim:biological_process	1	0.3916	1	AT1G22990
+DAY_EP_DIFF	2567	EP generated from the list of differentiall expressed genes using p -value < 0.05. (Table S5 PubmedID:18923020)	1	0.6073	1	AT3G48280
+CHANDRAN_LEAF_PM-ALTERED_5DPI_DN	581	Down-regulated whole leaf genes with PM-altered expression at 5 dpi (Table S2B PubmedID:20018666)	1	0.1848	1	AT5G02230
+ORGANELLE_MEMBRANE	1320	GO:0031090   organelle membrane,    GOslim:cellular_component	1	0.3749	1	AT5G13930
+MONOSACCHARIDE_METABOLIC_PROCESS	804	GO:0005996   monosaccharide metabolic process,    GOslim:biological_process	1	0.247	1	AT2G47400
+GENE_EXPRESSION	4732	GO:0010467   gene expression,    GOslim:biological_process	3	0.2187	1	AT3G01470 AT1G22990 AT3G06740
+MA_ROOT_LIGHT_DN	391	Light down-regulated in Root (TableS7 PubmedID:15888681)	1	0.1282	1	AT4G35190
+HU_DARK_35S-MIF1_SEEDLINGS_UP	1866	Up-significantly altered expression (Dark_Fold Change) in 35S:MIF1 seedlings (false discovery rate <0.1; MIF1, MINI ZINC FINGER 1) (Table S1 PubmedID:16412086)	1	0.4886	1	AT4G35190
+TANG_BRM-5/ESSP3_LEAVES_UP	542	Up-regulated in brm-5/essp3 Leaves (Table S1 PubmedID:18508955)	1	0.1734	1	AT5G13930
+DEEKEN_AGROBACTERIUM_TUMORS/TUMOR-FREE-INFLORESCENCE-STALK_UP	2299	Up-regulated expressed genes of  Agrobacterium tumefaciens(P<0.01_all)-induced Arabidopsis tumors versus tumor-free inflorescence stalk tissue. (Table S3 PubmedID:17172353)	1	0.5652	1	AT3G06740
+ALCOHOL_CATABOLIC_PROCESS	491	GO:0046164   alcohol catabolic process,    GOslim:biological_process	1	0.1584	1	AT2G47400
+PHYTOSTEROID_METABOLIC_PROCESS	123	GO:0016128   phytosteroid metabolic process,    GOslim:biological_process	1	0.0423	1	AT5G24910
+RESPONSE_TO_UV	247	GO:0009411   response to UV,    GOslim:biological_process	1	0.0829	1	AT5G13930
+HEXOSE_METABOLIC_PROCESS	602	GO:0019318   hexose metabolic process,    GOslim:biological_process	1	0.1908	1	AT2G47400
+SMALL_MOLECULE_METABOLIC_PROCESS	4053	GO:0044281   small molecule metabolic process,    GOslim:biological_process	2	0.4217	1	AT2G47400 AT5G13930
+KAUFMANN_WT/AG-MUTANT_BOLTING_UP	1651	Up-regulated wt vs ag mutant after bolting (Table S2 PubmedID:19385720)	1	0.4463	1	AT4G35190
+ORGANELLE_ENVELOPE	925	GO:0031967   organelle envelope,    GOslim:cellular_component	1	0.2789	1	AT2G47400
+BAE_NEP1_30MIN_UP	458	Up-regulated by 30 min treatment with 10 mg/ml Nep1 (Table  S1 PubmedID:16698904)	1	0.1485	1	AT5G02230
+PEDICEL	13526	PO:0009052 pedicel	6	0.3059	1	AT2G47400 AT4G35190 AT5G24910 AT5G13930 AT3G06740 AT5G02230
+RESPONSE_TO_RADIATION	1257	GO:0009314   response to radiation,    GOslim:biological_process	2	0.0681	1	AT3G01470 AT5G13930
+NEGATIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS	416	GO:0010558   negative regulation of macromolecule biosynthetic process,    GOslim:biological_process	1	0.1358	1	AT1G22990
+NEGATIVE_REGULATION_OF_NITROGEN_COMPOUND_METABOLIC_PROCESS	413	GO:0051172   negative regulation of nitrogen compound metabolic process,    GOslim:biological_process	1	0.1349	1	AT1G22990
+FLAVONOID_BIOSYNTHETIC_PROCESS	225	GO:0009813   flavonoid biosynthetic process,    GOslim:biological_process	1	0.0758	1	AT5G13930
+ZHANG_STAMENS/POLLEN_DIFF	923	Preferentially expressed in stamens/pollen (Table S 7 PubmedID:18539592)	1	0.2784	1	AT3G60780
+DEEKEN_CATEGORIES_AGROBACTERIUM_TUMORS/TUMOR-FREE-INFLORESCENCE-STALK_UP	1652	Up-regulated expressed genes of  Agrobacterium tumefaciens (P<0.01 + functional categories)-induced Arabidopsis tumors versus tumor-free inflorescence stalk tissue. (Table S3 PubmedID:17172353)	1	0.4465	1	AT3G06740
+PHENYLPROPANOID_METABOLIC_PROCESS	400	GO:0009698   phenylpropanoid metabolic process,    GOslim:biological_process	1	0.1309	1	AT5G13930
+RESPONSE_TO_ENDOGENOUS_STIMULUS	1604	GO:0009719   response to endogenous stimulus,    GOslim:biological_process	1	0.4366	1	AT5G13930
+CARPEL	13833	PO:0009030 carpel	6	0.3306	1	AT2G47400 AT4G35190 AT5G13930 AT1G22990 AT3G06740 AT5G02230
+BRASSINOSTEROID_METABOLIC_PROCESS	122	GO:0016131   brassinosteroid metabolic process,    GOslim:biological_process	1	0.0419	1	AT5G24910
+CATION_TRANSPORT	810	GO:0006812   cation transport,    GOslim:biological_process	1	0.2486	1	AT1G22990
+CATABOLIC_PROCESS	2175	GO:0009056   catabolic process,    GOslim:biological_process	3	0.0347	1	AT2G47400 AT3G01470 AT3G06740
+MEMBRANE	6079	GO:0016020   membrane,    GOslim:cellular_component	1	0.9068	1	AT5G13930
+GLYCOLIPID_BIOSYNTHETIC_PROCESS	106	GO:0009247   glycolipid biosynthetic process,    GOslim:biological_process	1	0.0366	1	AT1G22990
+EXTRACELLULAR_REGION	2632	GO:0005576   extracellular region,    GOslim:cellular_component	1	0.6169	1	AT3G48280
+NUCLEOBASE-CONTAINING_COMPOUND_METABOLIC_PROCESS	4783	GO:0006139   nucleobase-containing compound metabolic process,    GOslim:biological_process	3	0.2236	1	AT3G01470 AT1G22990 AT3G06740
+EHLTING_VENN_DN	2648	Venn analysis of differentially expressed genes; down-regulated genes (TableS4b PubmedID:18400103)	2	0.2333	1	AT5G13930 AT5G02230
+ORGANELLE	16837	GO:0043226   organelle,    GOslim:cellular_component	6	0.5954	1	AT2G47400 AT3G01470 AT4G35190 AT3G48280 AT5G13930 AT3G06740
+RESPONSE_TO_JASMONIC_ACID_STIMULUS	471	GO:0009753   response to jasmonic acid stimulus,    GOslim:biological_process	1	0.1524	1	AT5G13930
+SEPAL	15353	PO:0009031 sepal	8	0.0826	1	AT2G47400 AT3G60780 AT4G35190 AT5G24910 AT5G13930 AT1G22990 AT3G06740 AT5G02230
+NEGATIVE_REGULATION_OF_METABOLIC_PROCESS	640	GO:0009892   negative regulation of metabolic process,    GOslim:biological_process	1	0.2017	1	AT1G22990
+WAN_WT_CHITOOCTAOSE-TREATED_WATER-TREATED_DIFF	890	Differentially regulated by 1.5 fold (P <0.05) in the wild-type plants by chitooctaose 30 minutes after treatment as revealed by the comparison between the chitooctaose-treated and water treated samples. The expression pattern of these genes in the similarly treated mutant plants was also included after the wild-type Data. WT: wild-type Col-0; Mu: the atLysM RLK1 mutant; 8mer: treatment with chitooctaose; water: treatment with distilled water; I, II, and III: biological replicates. False Discovery Rate (Number) of 200 permutations: Median: 0.0% (0), and 90th percentile: 99.9% (889). (Table 1 PubmedID:18263776)	1	0.2698	1	AT5G02230
+REGULATION_OF_NUCLEOBASE-CONTAINING_COMPOUND_METABOLIC_PROCESS	2492	GO:0019219   regulation of nucleobase-containing compound metabolic process,    GOslim:biological_process	3	0.0491	1	AT3G01470 AT1G22990 AT3G06740
+HETEROCYCLE_METABOLIC_PROCESS	1020	GO:0046483   heterocycle metabolic process,    GOslim:biological_process	1	0.3032	1	AT3G01470
+RESPONSE_TO_EXTERNAL_STIMULUS	1047	GO:0009605   response to external stimulus,    GOslim:biological_process	2	0.0492	1	AT5G13930 AT1G22990
+METABOLIC_PROCESS	13568	GO:0008152   metabolic process,    GOslim:biological_process	8	0.0374	1	AT2G47400 AT3G01470 AT3G48280 AT5G24910 AT5G13930 AT1G22990 AT3G06740 AT5G02230
+WELLMER_ORGAN_OLIGONUCLEOTIDE_DIFF	1379	The organ-expressed genes identified with the oligonucleotide array are listed (Table S7 PubmedID:15100403)	1	0.3882	1	AT3G60780
+POSITIVE_REGULATION_OF_BIOLOGICAL_PROCESS	886	GO:0048518   positive regulation of biological process,    GOslim:biological_process	1	0.2688	1	AT3G01470
+HU_YHB-D/WT-D_UP	1610	Up-regulated 2-fold in YHB-D /WT-D (Table S1 PubmedID:19529817)	2	0.1046	1	AT4G35190 AT5G24910
+HORVATH_POPLAR_UP	2714	Upregulated genes by average expression ratio of Poplar (signal from leaf divided by the signal from shoot apices) after normalization by loess regression. (TableS1 PubmedID:12662315)	2	0.2421	1	AT3G01470 AT1G22990
+POLLEN	12581	PO:0025281 pollen	6	0.2351	1	AT2G47400 AT3G60780 AT4G35190 AT5G13930 AT1G22990 AT5G02230
+NEGATIVE_REGULATION_OF_RNA_METABOLIC_PROCESS	398	GO:0051253   negative regulation of RNA metabolic process,    GOslim:biological_process	1	0.1303	1	AT1G22990
+INFLORESCENCE_MERISTEM	12915	PO:0000230 inflorescence meristem	3	0.8991	1	AT2G47400 AT3G06740 AT5G02230
+KAKIZAKI_PPI2-1-TAG_DN	607	Down-regulated tags in ppi2-1. (Table S1 PubmedID:19726569)	1	0.1923	1	AT2G47400
+REGULATION_OF_PRIMARY_METABOLIC_PROCESS	2751	GO:0080090   regulation of primary metabolic process,    GOslim:biological_process	4	0.011	1	AT3G01470 AT5G13930 AT1G22990 AT3G06740
+TOXIN_CATABOLIC_PROCESS	211	GO:0009407   toxin catabolic process,    GOslim:biological_process	1	0.0713	1	AT3G06740
+GONZALI_SUCROSE_UP	368	Strongly induced  responsive to sucrose when Suc modulated is greater than 3fold (Table S1 PubmedID:16463203)	1	0.1211	1	AT5G13930
+INTRACELLULAR_PART	19186	GO:0044424   intracellular part,    GOslim:cellular_component	7	0.5595	1	AT2G47400 AT3G01470 AT4G35190 AT3G48280 AT5G13930 AT1G22990 AT3G06740
+STEM	14057	PO:0009047 stem	7	0.1537	1	AT2G47400 AT3G01470 AT4G35190 AT5G13930 AT1G22990 AT3G06740 AT5G02230
+ALCOHOL_METABOLIC_PROCESS	1142	GO:0006066   alcohol metabolic process,    GOslim:biological_process	1	0.3332	1	AT2G47400
+CELLULAR_CARBOHYDRATE_CATABOLIC_PROCESS	543	GO:0044275   cellular carbohydrate catabolic process,    GOslim:biological_process	1	0.1737	1	AT2G47400
+RESPONSE_TO_STRESS	4037	GO:0006950   response to stress,    GOslim:biological_process	3	0.1554	1	AT3G01470 AT5G13930 AT1G22990
+RESPONSE_TO_UV-B	104	GO:0010224   response to UV-B,    GOslim:biological_process	1	0.0359	1	AT5G13930
+CELLULAR_CATABOLIC_PROCESS	2088	GO:0044248   cellular catabolic process,    GOslim:biological_process	3	0.0312	1	AT2G47400 AT3G01470 AT3G06740
+THOMAS_OBE1I-OBE2I/WT_UP	973	Up-regulated expressed in the obe1i obe2i mutant seedlings when compared to wild type (Table S2 PubmedID:19392692)	1	0.2913	1	AT5G13930
+CELLULAR_RESPONSE_TO_EXTRACELLULAR_STIMULUS	352	GO:0031668   cellular response to extracellular stimulus,    GOslim:biological_process	1	0.1161	1	AT1G22990
+PESARESI_STN7-1PSAD1-1MUTANT/CL-0_DN	842	Down-regulated in the stn7-1 psad1-1 mutant compared to Col-0. (Table S5 PubmedID:19706797)	1	0.2572	1	AT5G02230
+TRANSFERASE_ACTIVITY	2997	GO:0016740   transferase activity,    GOslim:molecular_function	1	0.6671	1	AT5G13930
+GAETA_ALLOPOLYPLOID/PARENT-MIX1250_PERGENEVAR_UP	571	Up-regulated genes that were nonadditively expressed in allopolyploid line 1200 relative to the 1:1 parent mix--parentmix_1250_FDR_PerGeneVar (Dataset S3 PubmedID:19274085)	1	0.1819	1	AT1G22990
+KRAM_NECTARY_MLN_UP	281	Up -regulated genes displaying nectary-enriched expression profiles by MLN (Table S7 PubmedID:19604393)	1	0.0938	1	AT3G60780
+PHYLLOME_DEVELOPMENT	492	GO:0048827   phyllome development,    GOslim:biological_process	1	0.1587	1	AT3G01470
+SATO_COL-101C_COL-NDR1_101C-NDR1_NDR1-NDR1BLIND_UP	576	Up-regulated by Col_101C, Col_ndr1, 101C_ndr1,and ndr1_ndr1blind (Table  S3 PubmedID:17181774)	1	0.1833	1	AT5G13930
+GOLGI_APPARATUS	946	GO:0005794   Golgi apparatus,    GOslim:cellular_component	1	0.2844	1	AT3G48280
+NEGATIVE_REGULATION_OF_TRANSCRIPTION,_DNA-DEPENDENT	398	GO:0045892   negative regulation of transcription, DNA-dependent,    GOslim:biological_process	1	0.1303	1	AT1G22990
+PLASTID_ENVELOPE	597	GO:0009526   plastid envelope,    GOslim:cellular_component	1	0.1894	1	AT2G47400
+USADEL_KIN10_UP	505	Up-regulated-KIN10 (Table S6 PubmedID:18305208)	1	0.1625	1	AT5G02230
+ANATOMICAL_STRUCTURE_MORPHOGENESIS	1762	GO:0009653   anatomical structure morphogenesis,    GOslim:biological_process	1	0.4685	1	AT3G01470
+TETRAPYRROLE_METABOLIC_PROCESS	226	GO:0033013   tetrapyrrole metabolic process,    GOslim:biological_process	1	0.0761	1	AT3G01470
+RESPONSE_TO_INORGANIC_SUBSTANCE	1075	GO:0010035   response to inorganic substance,    GOslim:biological_process	1	0.3168	1	AT3G01470
+MULTICELLULAR_ORGANISMAL_DEVELOPMENT	3807	GO:0007275   multicellular organismal development,    GOslim:biological_process	1	0.7581	1	AT3G01470
+CHLOROPLAST_ENVELOPE	572	GO:0009941   chloroplast envelope,    GOslim:cellular_component	1	0.1822	1	AT2G47400
+RESPONSE_TO_SALT_STRESS	780	GO:0009651   response to salt stress,    GOslim:biological_process	1	0.2405	1	AT3G01470
+POSITIVE_REGULATION_OF_GENE_EXPRESSION	468	GO:0010628   positive regulation of gene expression,    GOslim:biological_process	1	0.1515	1	AT3G01470
+NEGATIVE_REGULATION_OF_BIOSYNTHETIC_PROCESS	423	GO:0009890   negative regulation of biosynthetic process,    GOslim:biological_process	1	0.1379	1	AT1G22990
+BABU_PPV-INFECTED-LEAF_17D-INOCULATION_DN	1456	Repressed in PPV-infected Arabidopsis leaf tissues 17 days post inoculation (Table S2 PubmedID:18613973)	1	0.4052	1	AT3G06740
+FLOWER	16607	PO:0009046 flower	9	0.0342	1	AT2G47400 AT3G60780 AT3G01470 AT4G35190 AT5G24910 AT5G13930 AT1G22990 AT3G06740 AT5G02230
+ROOT	14970	PO:0009005 root	7	0.2072	1	AT2G47400 AT3G01470 AT4G35190 AT5G24910 AT1G22990 AT3G06740 AT5G02230
+CELL	21652	GO:0005623   cell,    GOslim:cellular_component	7	0.7816	1	AT2G47400 AT3G01470 AT4G35190 AT3G48280 AT5G13930 AT1G22990 AT3G06740
+GAETA_ALLOPOLYPLOID/PARENT-MIX6400_PERGENEVAR_UP	370	Up-regulated genes that were nonadditively expressed in allopolyploid line 1200 relative to the 1:1 parent mix--parentmix_6450_FDR_CommonVar (Dataset S7 PubmedID:19274085)	1	0.1217	1	AT5G13930
+BIOLOGICAL_REGULATION	6172	GO:0065007   biological regulation,    GOslim:biological_process	5	0.0434	1	AT3G01470 AT5G24910 AT5G13930 AT1G22990 AT3G06740
+SHOOT_DEVELOPMENT	703	GO:0048367   shoot development,    GOslim:biological_process	1	0.2194	1	AT3G01470
+CAULINE_LEAF	12887	PO:0000013 cauline leaf	5	0.4901	1	AT2G47400 AT4G35190 AT5G13930 AT3G06740 AT5G02230
+GLYCOLIPID_METABOLIC_PROCESS	115	GO:0006664   glycolipid metabolic process,    GOslim:biological_process	1	0.0396	1	AT1G22990
+CELLULAR_CARBOHYDRATE_METABOLIC_PROCESS	1771	GO:0044262   cellular carbohydrate metabolic process,    GOslim:biological_process	1	0.4703	1	AT2G47400
+RESPONSE_TO_OXIDATIVE_STRESS	586	GO:0006979   response to oxidative stress,    GOslim:biological_process	1	0.1862	1	AT5G13930
+MACROMOLECULE_METABOLIC_PROCESS	9200	GO:0043170   macromolecule metabolic process,    GOslim:biological_process	4	0.4037	1	AT2G47400 AT3G01470 AT1G22990 AT3G06740
+REGULATION_OF_METABOLIC_PROCESS	3154	GO:0019222   regulation of metabolic process,    GOslim:biological_process	4	0.0176	1	AT3G01470 AT5G13930 AT1G22990 AT3G06740
+INTRACELLULAR_ORGANELLE	16829	GO:0043229   intracellular organelle,    GOslim:cellular_component	6	0.5947	1	AT2G47400 AT3G01470 AT4G35190 AT3G48280 AT5G13930 AT3G06740
+LEAF_DEVELOPMENT	446	GO:0048366   leaf development,    GOslim:biological_process	1	0.1449	1	AT3G01470
+CYTOPLASM	11643	GO:0005737   cytoplasm,    GOslim:cellular_component	5	0.3786	1	AT2G47400 AT4G35190 AT3G48280 AT5G13930 AT1G22990
+GAETA_ALLOPOLYPLOID/PARENT-MIX6400_COMMONVAR_UP	571	Up-regulated genes that were nonadditively expressed in allopolyploid line 1200 relative to the 1:1 parent mix--parentmix_6400_FDR_CommonVar (Dataset S6 PubmedID:19274085)	1	0.1819	1	AT1G22990
+CYTOSOL	1642	GO:0005829   cytosol,    GOslim:cellular_component	1	0.4445	1	AT4G35190
+DEEKEN_AGROBACTERIUM_TUMORS/TUMOR-FREE-INFLORESCENCE-STALK_DN	2629	Down-regulated expressed genes of  Agrobacterium tumefaciens(P<0.01_all)-induced Arabidopsis tumors versus tumor-free inflorescence stalk tissue. (Table S3 PubmedID:17172353)	1	0.6165	1	AT2G47400
+REGULATION_OF_TRANSCRIPTION,_DNA-DEPENDENT	2370	GO:0006355   regulation of transcription, DNA-dependent,    GOslim:biological_process	3	0.0432	1	AT3G01470 AT1G22990 AT3G06740
+ORGAN_MORPHOGENESIS	624	GO:0009887   organ morphogenesis,    GOslim:biological_process	1	0.1971	1	AT3G01470
+YANT_NUCLEAR_RP_UNAMBIG_DN	705	Nuclear RP Down Unambig (Table S2 PubmedID:20675573)	1	0.2199	1	AT5G24910
+CHLOROPLAST_STROMA	603	GO:0009570   chloroplast stroma,    GOslim:cellular_component	1	0.1911	1	AT2G47400
+ANTHOCYANIN-CONTAINING_COMPOUND_BIOSYNTHETIC_PROCESS	63	GO:0009718   anthocyanin-containing compound biosynthetic process,    GOslim:biological_process	1	0.022	1	AT5G13930
+PLANT-TYPE_VACUOLE_MEMBRANE	68	GO:0009705   plant-type vacuole membrane,    GOslim:cellular_component	1	0.0237	1	AT5G13930
+ESTABLISHMENT_OF_LOCALIZATION	3633	GO:0051234   establishment of localization,    GOslim:biological_process	3	0.1224	1	AT3G01470 AT5G13930 AT1G22990
+MANDAOKAR_JASMONATE_22H_STAMEN_DIFF	809	Jasmonate-esponsive genes (22hrs)in stamens of Arabaidopsis thaliana (Table S1 PubmedID:16805732)	1	0.2483	1	AT3G01470
+POSITIVE_REGULATION_OF_BIOSYNTHETIC_PROCESS	595	GO:0009891   positive regulation of biosynthetic process,    GOslim:biological_process	1	0.1888	1	AT3G01470
+RESPONSE_TO_NUTRIENT_LEVELS	331	GO:0031667   response to nutrient levels,    GOslim:biological_process	1	0.1095	1	AT1G22990
+REGULATION_OF_BIOLOGICAL_QUALITY	1637	GO:0065008   regulation of biological quality,    GOslim:biological_process	2	0.1076	1	AT5G24910 AT5G13930
+LIPID_METABOLIC_PROCESS	1767	GO:0006629   lipid metabolic process,    GOslim:biological_process	2	0.1224	1	AT5G24910 AT1G22990
+CELLULAR_NITROGEN_COMPOUND_CATABOLIC_PROCESS	88	GO:0044270   cellular nitrogen compound catabolic process,    GOslim:biological_process	1	0.0305	1	AT3G01470
+SYSTEM_DEVELOPMENT	2037	GO:0048731   system development,    GOslim:biological_process	1	0.5202	1	AT3G01470
+MU_ACID-SYNTHETIC-GENE_LEC1-OXI_UP	441	Upregulated fatty acid synthetic genes in LEC1-Oxi plants (Table S1 PubmedID:18689444)	1	0.1434	1	AT5G24910
+PIGMENT_BIOSYNTHETIC_PROCESS	281	GO:0046148   pigment biosynthetic process,    GOslim:biological_process	1	0.0938	1	AT5G13930
+SMALL_MOLECULE_BIOSYNTHETIC_PROCESS	1859	GO:0044283   small molecule biosynthetic process,    GOslim:biological_process	1	0.4873	1	AT5G13930
+BAENA-GONZALEZ_KIN10_UP	506	Increased-regulation by KIN10 (1021 genes). (Table S3 PubmedID:17671505)	1	0.1628	1	AT5G02230
+SOZZANI_SHR_TIME-COURSE_DIFF	2481	Genes differentially regulated in the SHR microarray time course (Table S1 PubmedID:20596025)	2	0.2113	1	AT3G01470 AT5G02230
+NEGATIVE_REGULATION_OF_GENE_EXPRESSION	592	GO:0010629   negative regulation of gene expression,    GOslim:biological_process	1	0.188	1	AT1G22990
+LEIVAR_SSTF-C1_WT-R1-WT-RC-PIFQ-D/WT-D_DN	340	Repressed SSTF Class 1 genes that are Repressed in WT-R1, WT-Rc and/or pifq-D relative to WT-D. (Dataset4 PubmedID:19920208)	1	0.1124	1	AT5G02230
+REGULATION_OF_GENE_EXPRESSION	2669	GO:0010468   regulation of gene expression,    GOslim:biological_process	3	0.0584	1	AT3G01470 AT1G22990 AT3G06740
+REGULATION_OF_CELLULAR_BIOSYNTHETIC_PROCESS	2623	GO:0031326   regulation of cellular biosynthetic process,    GOslim:biological_process	4	9.27e-3	1	AT3G01470 AT5G13930 AT1G22990 AT3G06740
+NUCLEUS	9320	GO:0005634   nucleus,    GOslim:cellular_component	4	0.415	1	AT3G01470 AT4G35190 AT5G13930 AT3G06740
+MONOSACCHARIDE_CATABOLIC_PROCESS	480	GO:0046365   monosaccharide catabolic process,    GOslim:biological_process	1	0.1551	1	AT2G47400
+RESPONSE_TO_ABIOTIC_STIMULUS	2615	GO:0009628   response to abiotic stimulus,    GOslim:biological_process	2	0.2289	1	AT3G01470 AT5G13930
+AROMATIC_COMPOUND_BIOSYNTHETIC_PROCESS	679	GO:0019438   aromatic compound biosynthetic process,    GOslim:biological_process	1	0.2127	1	AT5G13930
+PLASTID_PART	1251	GO:0044435   plastid part,    GOslim:cellular_component	1	0.359	1	AT2G47400
+ANION_TRANSPORT	350	GO:0006820   anion transport,    GOslim:biological_process	1	0.1155	1	AT3G01470
+HETEROCYCLE_CATABOLIC_PROCESS	266	GO:0046700   heterocycle catabolic process,    GOslim:biological_process	1	0.089	1	AT3G01470
+PLASTID_STROMA	637	GO:0009532   plastid stroma,    GOslim:cellular_component	1	0.2008	1	AT2G47400
+HOEWYK_SE_ROOT_DN	896	Downregulated  Se-reponsive genes in root tissue (Table 1A PubmedID:18251864)	1	0.2714	1	AT2G47400
+RESPONSE_TO_GRAVITY	162	GO:0009629   response to gravity,    GOslim:biological_process	1	0.0552	1	AT5G13930
+VACUOLAR_PART	485	GO:0044437   vacuolar part,    GOslim:cellular_component	1	0.1566	1	AT5G13930
+CHLOROPHYLL_METABOLIC_PROCESS	188	GO:0015994   chlorophyll metabolic process,    GOslim:biological_process	1	0.0638	1	AT3G01470
+PHYTOSTEROID_BIOSYNTHETIC_PROCESS	118	GO:0016129   phytosteroid biosynthetic process,    GOslim:biological_process	1	0.0406	1	AT5G24910
+RESPONSE_TO_HORMONE_STIMULUS	1364	GO:0009725   response to hormone stimulus,    GOslim:biological_process	1	0.3849	1	AT5G13930
+CELLULAR_RESPONSE_TO_STIMULUS	2302	GO:0051716   cellular response to stimulus,    GOslim:biological_process	1	0.5657	1	AT1G22990
+GALACTOLIPID_BIOSYNTHETIC_PROCESS	99	GO:0019375   galactolipid biosynthetic process,    GOslim:biological_process	1	0.0342	1	AT1G22990
+REGULATION_OF_RNA_METABOLIC_PROCESS	2384	GO:0051252   regulation of RNA metabolic process,    GOslim:biological_process	3	0.0439	1	AT3G01470 AT1G22990 AT3G06740
+SIGNALING	2317	GO:0023052   signaling,    GOslim:biological_process	1	0.5682	1	AT1G22990
+BABU_PPV-INFECTED-LEAF_17D-INOCULATION_UP	2013	Induced in PPV-infected Arabidopsis leaf tissues 17 days post inoculation (Table S1 PubmedID:18613973)	2	0.1517	1	AT5G24910 AT5G13930
+POSITIVE_REGULATION_OF_RNA_METABOLIC_PROCESS	466	GO:0051254   positive regulation of RNA metabolic process,    GOslim:biological_process	1	0.1509	1	AT3G01470
+REGULATION_OF_MACROMOLECULE_METABOLIC_PROCESS	2803	GO:0060255   regulation of macromolecule metabolic process,    GOslim:biological_process	3	0.0659	1	AT3G01470 AT1G22990 AT3G06740
+KAUFMANN_WT/AG-MUTANT-STAGE12_UP	1910	Up-regulated wt vs ag mutant Stage12 (Table S2 PubmedID:19385720)	2	0.1392	1	AT4G35190 AT5G24910
+TETRAPYRROLE_CATABOLIC_PROCESS	62	GO:0033015   tetrapyrrole catabolic process,    GOslim:biological_process	1	0.0217	1	AT3G01470
+POSITIVE_REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS	486	GO:0010557   positive regulation of macromolecule biosynthetic process,    GOslim:biological_process	1	0.1569	1	AT3G01470
+POSITIVE_REGULATION_OF_TRANSCRIPTION,_DNA-DEPENDENT	462	GO:0045893   positive regulation of transcription, DNA-dependent,    GOslim:biological_process	1	0.1497	1	AT3G01470
+MA_HYPOCOTYL_LIGHT_UP	867	Light up-regulated in Hyp (TableS6 PubmedID:15888681)	1	0.2638	1	AT5G13930
+WANG_CBP60G-1_24H_INOCULATION-PSM-ES4326_UP	299	Up-regulated-Expression profile of cbp60g-1 at 24 hours after inoculation of Psm ES4326 (TableS1 PubmedID:18842091)	1	0.0995	1	AT5G13930
+MANDAOKAR_JASMONATE_8H_STAMEN_DIFF	490	Jasmonate-esponsive genes (8hrs)in stamens of Arabaidopsis thaliana (Table S1 PubmedID:16805732)	1	0.1581	1	AT3G01470
+MACROMOLECULE_BIOSYNTHETIC_PROCESS	5300	GO:0009059   macromolecule biosynthetic process,    GOslim:biological_process	3	0.2751	1	AT3G01470 AT1G22990 AT3G06740
+VACUOLE	854	GO:0005773   vacuole,    GOslim:cellular_component	1	0.2604	1	AT5G13930
+RESPONSE_TO_CARBOHYDRATE_STIMULUS	811	GO:0009743   response to carbohydrate stimulus,    GOslim:biological_process	2	0.0308	1	AT2G47400 AT5G13930
+ORGAN_DEVELOPMENT	2037	GO:0048513   organ development,    GOslim:biological_process	1	0.5202	1	AT3G01470
+SOZZANI_SCR_TIME-COURSE_DIFF	1904	Genes differentially regulated in the SCR microarray time course (Table S2 PubmedID:20596025)	1	0.4958	1	AT5G02230
+RESPONSE_TO_BLUE_LIGHT	126	GO:0009637   response to blue light,    GOslim:biological_process	1	0.0433	1	AT3G01470
+REGULATION_OF_CELLULAR_METABOLIC_PROCESS	2917	GO:0031323   regulation of cellular metabolic process,    GOslim:biological_process	4	0.0134	1	AT3G01470 AT5G13930 AT1G22990 AT3G06740
+AUXIN_POLAR_TRANSPORT	95	GO:0009926   auxin polar transport,    GOslim:biological_process	1	0.0329	1	AT5G13930
+DAY_OST_DIFF	2648	OST generated from the list of differentiall expressed genes using p -value < 0.05. (Table S5 PubmedID:18923020)	2	0.2333	1	AT3G01470 AT5G02230
+ZHANG_PST-DC3000-GH3.5-1D/WT_UP	474	Up-regulated genes in Pst DC3000 (avrRpt2)-infected gh3.5-1D versus wild-type plants (Table S3 PubmedID:17704230)	1	0.1533	1	AT5G13930
+SHOOT_SYSTEM	12699	PO:0009006 shoot system	4	0.7152	1	AT2G47400 AT5G13930 AT3G06740 AT5G02230
+HORMONE_TRANSPORT	100	GO:0009914   hormone transport,    GOslim:biological_process	1	0.0345	1	AT5G13930
+AUXIN_TRANSPORT	99	GO:0060918   auxin transport,    GOslim:biological_process	1	0.0342	1	AT5G13930
+CELLULAR_MODIFIED_AMINO_ACID_METABOLIC_PROCESS	708	GO:0006575   cellular modified amino acid metabolic process,    GOslim:biological_process	1	0.2208	1	AT5G13930
+PRIMARY_METABOLIC_PROCESS	11672	GO:0044238   primary metabolic process,    GOslim:biological_process	6	0.1759	1	AT2G47400 AT3G01470 AT5G24910 AT5G13930 AT1G22990 AT3G06740
+RESPONSE_TO_LIGHT_STIMULUS	1182	GO:0009416   response to light stimulus,    GOslim:biological_process	2	0.0611	1	AT3G01470 AT5G13930
+NEGATIVE_REGULATION_OF_CELLULAR_METABOLIC_PROCESS	447	GO:0031324   negative regulation of cellular metabolic process,    GOslim:biological_process	1	0.1452	1	AT1G22990
+POSITIVE_REGULATION_OF_CELLULAR_BIOSYNTHETIC_PROCESS	595	GO:0031328   positive regulation of cellular biosynthetic process,    GOslim:biological_process	1	0.1888	1	AT3G01470
+NITRATE_TRANSPORT	207	GO:0015706   nitrate transport,    GOslim:biological_process	1	0.07	1	AT3G01470
+PHENYLPROPANOID_BIOSYNTHETIC_PROCESS	326	GO:0009699   phenylpropanoid biosynthetic process,    GOslim:biological_process	1	0.108	1	AT5G13930
+DEEKEN_AGROBACTERIUM-TUMEFACIENS_TUMORS_UP	2401	Up-regulated in Agrobacterium tumefaciens-induced tumors of Arabidopsis thaliana. (Table S1 PubmedID:17172353)	1	0.5817	1	AT3G06740
+HYPOCOTYL	14094	PO:0020100 hypocotyl	5	0.5977	1	AT2G47400 AT4G35190 AT5G13930 AT3G06740 AT5G02230
+PLANT-TYPE_VACUOLE	99	GO:0000325   plant-type vacuole,    GOslim:cellular_component	1	0.0342	1	AT5G13930
+CELLULAR_NITROGEN_COMPOUND_METABOLIC_PROCESS	1369	GO:0034641   cellular nitrogen compound metabolic process,    GOslim:biological_process	1	0.386	1	AT3G01470
+LISTER_MET1_DN	360	Met1 downregulated (TableS9 PubmedID:18423832)	1	0.1186	1	AT4G35190
+SEED	13977	PO:0009010 seed	6	0.3425	1	AT2G47400 AT4G35190 AT5G24910 AT5G13930 AT3G06740 AT5G02230
+NEGATIVE_REGULATION_OF_NUCLEOBASE-CONTAINING_COMPOUND_METABOLIC_PROCESS	411	GO:0045934   negative regulation of nucleobase-containing compound metabolic process,    GOslim:biological_process	1	0.1343	1	AT1G22990
+RNA_BIOSYNTHETIC_PROCESS	2619	GO:0032774   RNA biosynthetic process,    GOslim:biological_process	3	0.0557	1	AT3G01470 AT1G22990 AT3G06740
+HORMONE_METABOLIC_PROCESS	322	GO:0042445   hormone metabolic process,    GOslim:biological_process	1	0.1067	1	AT5G24910
+GUARD_CELL	1813	PO:0000293 guard cell	1	0.4785	1	AT5G13930
+RESPONSE_TO_OSMOTIC_STRESS	834	GO:0006970   response to osmotic stress,    GOslim:biological_process	1	0.255	1	AT3G01470
+MEMBRANE-BOUNDED_ORGANELLE	16614	GO:0043227   membrane-bounded organelle,    GOslim:cellular_component	6	0.5755	1	AT2G47400 AT3G01470 AT4G35190 AT3G48280 AT5G13930 AT3G06740
+ROSETTE_LEAF	364	PO:0000014 rosette leaf	1	0.1198	1	AT4G35190
+GAETA_ALLOPOLYPLOID/PARENT-MIX1250_COMMONVAR_UP	405	Up-regulated genes that were nonadditively expressed in allopolyploid line 1200 relative to the 1:1 parent mix--parentmix_1250_FDR_CommonVar (Dataset S3 PubmedID:19274085)	1	0.1324	1	AT1G22990
+LIPID_BIOSYNTHETIC_PROCESS	1156	GO:0008610   lipid biosynthetic process,    GOslim:biological_process	2	0.0587	1	AT5G24910 AT1G22990
+SHOOT_SYSTEM_DEVELOPMENT	703	GO:0022621   shoot system development,    GOslim:biological_process	1	0.2194	1	AT3G01470
+GALACTOLIPID_METABOLIC_PROCESS	100	GO:0019374   galactolipid metabolic process,    GOslim:biological_process	1	0.0345	1	AT1G22990
+PLASTID	3966	GO:0009536   plastid,    GOslim:cellular_component	1	0.7731	1	AT2G47400
+HORMONE_BIOSYNTHETIC_PROCESS	277	GO:0042446   hormone biosynthetic process,    GOslim:biological_process	1	0.0925	1	AT5G24910
+ENDOPLASMIC_RETICULUM	583	GO:0005783   endoplasmic reticulum,    GOslim:cellular_component	1	0.1854	1	AT5G13930
+NUCLEIC_ACID_BINDING	4173	GO:0003676   nucleic acid binding,    GOslim:molecular_function	2	0.4374	1	AT3G01470 AT3G06740
+KASSCHAU_RDR2-DCL3-MUTANT_DIFF	497	Significantly upregulated genes in rdr2 and dcl3 mutants (Table S2 PubmedID:17298187)	1	0.1602	1	AT3G06740
+GLUCOSE_METABOLIC_PROCESS	554	GO:0006006   glucose metabolic process,    GOslim:biological_process	1	0.1769	1	AT2G47400
+STEROID_BIOSYNTHETIC_PROCESS	221	GO:0006694   steroid biosynthetic process,    GOslim:biological_process	1	0.0745	1	AT5G24910
+RESPONSE_TO_STIMULUS	6222	GO:0050896   response to stimulus,    GOslim:biological_process	4	0.1513	1	AT2G47400 AT3G01470 AT5G13930 AT1G22990
+CHLOROPLAST	3889	GO:0009507   chloroplast,    GOslim:cellular_component	1	0.7659	1	AT2G47400
+CELLULAR_MACROMOLECULE_METABOLIC_PROCESS	8586	GO:0044260   cellular macromolecule metabolic process,    GOslim:biological_process	4	0.3462	1	AT2G47400 AT3G01470 AT1G22990 AT3G06740
+INORGANIC_ANION_TRANSPORT	266	GO:0015698   inorganic anion transport,    GOslim:biological_process	1	0.089	1	AT3G01470
+CARBOHYDRATE_METABOLIC_PROCESS	2239	GO:0005975   carbohydrate metabolic process,    GOslim:biological_process	1	0.5553	1	AT2G47400
+MA_COTYLEDON_LIGHT_DN	518	Light down-regulated in Cot (TableS7 PubmedID:15888681)	1	0.1664	1	AT4G35190
+CHLOROPLAST_PART	1210	GO:0044434   chloroplast part,    GOslim:cellular_component	1	0.3494	1	AT2G47400
+KEMPEMA_SLWF-NYMPH-FEEDING_DN	557	Down-expressed after SLWF nymph feeding (Table S2 PubmedID:17189325)	1	0.1778	1	AT2G47400
+KRAM_NECTARY_MMN_UP	284	Up -regulated genes displaying nectary-enriched expression profiles by MMN (Table S7 PubmedID:19604393)	1	0.0947	1	AT3G60780
+CARBOHYDRATE_CATABOLIC_PROCESS	571	GO:0016052   carbohydrate catabolic process,    GOslim:biological_process	1	0.1819	1	AT2G47400
+PIGMENT_CATABOLIC_PROCESS	58	GO:0046149   pigment catabolic process,    GOslim:biological_process	1	0.0203	1	AT3G01470
+REGULATION_OF_CELLULAR_PROCESS	4571	GO:0050794   regulation of cellular process,    GOslim:biological_process	4	0.06	1	AT3G01470 AT5G13930 AT1G22990 AT3G06740
+POLLEN_TUBE_CELL	4830	PO:0025195 pollen tube cell	2	0.5197	1	AT3G60780 AT5G02230
+METAL_ION_TRANSPORT	573	GO:0030001   metal ion transport,    GOslim:biological_process	1	0.1825	1	AT1G22990
+POSITIVE_REGULATION_OF_MACROMOLECULE_METABOLIC_PROCESS	502	GO:0010604   positive regulation of macromolecule metabolic process,    GOslim:biological_process	1	0.1616	1	AT3G01470
+CELLULAR_BIOSYNTHETIC_PROCESS	7714	GO:0044249   cellular biosynthetic process,    GOslim:biological_process	4	0.2679	1	AT3G01470 AT5G13930 AT1G22990 AT3G06740
+CELLULAR_MODIFIED_AMINO_ACID_BIOSYNTHETIC_PROCESS	532	GO:0042398   cellular modified amino acid biosynthetic process,    GOslim:biological_process	1	0.1705	1	AT5G13930
+PROTEIN_COMPLEX	1349	GO:0043234   protein complex,    GOslim:cellular_component	1	0.3815	1	AT2G47400
+CELLULAR_RESPONSE_TO_PHOSPHATE_STARVATION	139	GO:0016036   cellular response to phosphate starvation,    GOslim:biological_process	1	0.0476	1	AT1G22990
+RESPONSE_TO_ORGANIC_SUBSTANCE	2739	GO:0010033   response to organic substance,    GOslim:biological_process	2	0.2454	1	AT2G47400 AT5G13930
+TRANSCRIPTION,_DNA-DEPENDENT	2616	GO:0006351   transcription, DNA-dependent,    GOslim:biological_process	3	0.0555	1	AT3G01470 AT1G22990 AT3G06740
+RESPONSE_TO_WOUNDING	340	GO:0009611   response to wounding,    GOslim:biological_process	1	0.1124	1	AT5G13930
+NEGATIVE_REGULATION_OF_CELLULAR_PROCESS	779	GO:0048523   negative regulation of cellular process,    GOslim:biological_process	1	0.2402	1	AT1G22990
+RESPONSE_TO_CHEMICAL_STIMULUS	3953	GO:0042221   response to chemical stimulus,    GOslim:biological_process	3	0.1482	1	AT2G47400 AT3G01470 AT5G13930
+MA_COTYLEDON_WL/D_UP	1557	Up-regulated in Cotyledon WL Vs. D (TableS8 PubmedID:15888681)	2	0.0988	1	AT5G13930 AT1G22990
+SECONDARY_METABOLIC_PROCESS	1241	GO:0019748   secondary metabolic process,    GOslim:biological_process	2	0.0666	1	AT5G13930 AT3G06740
+NEGATIVE_REGULATION_OF_CELLULAR_BIOSYNTHETIC_PROCESS	423	GO:0031327   negative regulation of cellular biosynthetic process,    GOslim:biological_process	1	0.1379	1	AT1G22990
+PLANT_SPERM_CELL	5392	PO:0000084 plant sperm cell	2	0.585	1	AT3G60780 AT5G02230
+MULTICELLULAR_ORGANISMAL_PROCESS	3963	GO:0032501   multicellular organismal process,    GOslim:biological_process	1	0.7728	1	AT3G01470
+TOXIN_METABOLIC_PROCESS	211	GO:0009404   toxin metabolic process,    GOslim:biological_process	1	0.0713	1	AT3G06740
+POSITIVE_REGULATION_OF_CELLULAR_METABOLIC_PROCESS	609	GO:0031325   positive regulation of cellular metabolic process,    GOslim:biological_process	1	0.1928	1	AT3G01470
+RESPONSE_TO_AUXIN_STIMULUS	425	GO:0009733   response to auxin stimulus,    GOslim:biological_process	1	0.1385	1	AT5G13930
+MEMBRANE_LIPID_BIOSYNTHETIC_PROCESS	148	GO:0046467   membrane lipid biosynthetic process,    GOslim:biological_process	1	0.0506	1	AT1G22990
+SMALL_MOLECULE_CATABOLIC_PROCESS	931	GO:0044282   small molecule catabolic process,    GOslim:biological_process	1	0.2805	1	AT2G47400
+DIJK_DEHYDRATION-STRESS_UP	640	Up-Further analysis indicated 640 genes increased, their transcript levels by 4-fold or more (p <= 0.001) as result of the dehydration stress. (Table S3 PubmedID:21050490)	1	0.2017	1	AT1G22990
+RESPONSE_TO_STARVATION	308	GO:0042594   response to starvation,    GOslim:biological_process	1	0.1023	1	AT1G22990
+KEMPEMA_SLWF-NYMPH-FEEDING_UP	703	Up-expressed after SLWF nymph feeding (Table S2 PubmedID:17189325)	1	0.2194	1	AT1G22990
+REGULATION_OF_HORMONE_LEVELS	453	GO:0010817   regulation of hormone levels,    GOslim:biological_process	2	0.0103	1	AT5G24910 AT5G13930
+RESPONSE_TO_EXTRACELLULAR_STIMULUS	370	GO:0009991   response to extracellular stimulus,    GOslim:biological_process	1	0.1217	1	AT1G22990
+MEMBRANE_LIPID_METABOLIC_PROCESS	178	GO:0006643   membrane lipid metabolic process,    GOslim:biological_process	1	0.0605	1	AT1G22990
+PORPHYRIN-CONTAINING_COMPOUND_CATABOLIC_PROCESS	62	GO:0006787   porphyrin-containing compound catabolic process,    GOslim:biological_process	1	0.0217	1	AT3G01470
+DEVELOPMENTAL_PROCESS	4034	GO:0032502   developmental process,    GOslim:biological_process	1	0.7792	1	AT3G01470
+CYTOPLASMIC_PART	9440	GO:0044444   cytoplasmic part,    GOslim:cellular_component	4	0.4264	1	AT2G47400 AT4G35190 AT3G48280 AT5G13930
+CELLULAR_RESPONSE_TO_STRESS	1431	GO:0033554   cellular response to stress,    GOslim:biological_process	1	0.3997	1	AT1G22990
+GAETA_COMMVARSU_DIPLOID-PROGENITORS-B.RAPA_B.OLERACEA_UP	743	Up-regulated expression (oler_rapa_FDR_average_CommVarsu) between the diploid progenitors B. rapa and B. oleracea (Dataset S1 PubmedID:19274085)	1	0.2304	1	AT5G13930
+ANTHOCYANIN-CONTAINING_COMPOUND_METABOLIC_PROCESS	87	GO:0046283   anthocyanin-containing compound metabolic process,    GOslim:biological_process	1	0.0302	1	AT5G13930
+CELLULAR_PROCESS	14300	GO:0009987   cellular process,    GOslim:biological_process	5	0.6156	1	AT2G47400 AT3G01470 AT5G13930 AT1G22990 AT3G06740
+ORGANELLE_PART	3365	GO:0044422   organelle part,    GOslim:cellular_component	2	0.33	1	AT2G47400 AT5G13930
+ALVES-FERREIRA_SPL/NZZ_UP	1595	Up-regulated genes -spl/nzz (TableS1 PubmedID:17905860)	2	0.103	1	AT3G60780 AT1G22990
+MA_HYPOCOTYL_WL/D_UP	1706	Up-regulated in Hypocotyl WL Vs. D (TableS8 PubmedID:15888681)	1	0.4574	1	AT5G13930
+POSITIVE_REGULATION_OF_NUCLEOBASE-CONTAINING_COMPOUND_METABOLIC_PROCESS	474	GO:0045935   positive regulation of nucleobase-containing compound metabolic process,    GOslim:biological_process	1	0.1533	1	AT3G01470
+DEEKEN_AGROBACTERIUM-TUMEFACIENS_TUMORS_DN	2720	Down-regulated in Agrobacterium tumefaciens-induced tumors of Arabidopsis thaliana. (Table S2 PubmedID:17172353)	1	0.6296	1	AT2G47400
+LEAF_MORPHOGENESIS	343	GO:0009965   leaf morphogenesis,    GOslim:biological_process	1	0.1133	1	AT3G01470
+INTRACELLULAR	19271	GO:0005622   intracellular,    GOslim:cellular_component	7	0.5676	1	AT2G47400 AT3G01470 AT4G35190 AT3G48280 AT5G13930 AT1G22990 AT3G06740
+MACROMOLECULAR_COMPLEX	2037	GO:0032991   macromolecular complex,    GOslim:cellular_component	1	0.5202	1	AT2G47400
+INTRACELLULAR_MEMBRANE-BOUNDED_ORGANELLE	16608	GO:0043231   intracellular membrane-bounded organelle,    GOslim:cellular_component	6	0.575	1	AT2G47400 AT3G01470 AT4G35190 AT3G48280 AT5G13930 AT3G06740
+PLANT_EMBRYO	14725	PO:0009009 plant embryo	7	0.1919	1	AT2G47400 AT4G35190 AT5G24910 AT5G13930 AT1G22990 AT3G06740 AT5G02230
+MA_ROOT_LIGHT_UP	489	Light up-regulated in Root (TableS6 PubmedID:15888681)	1	0.1578	1	AT5G13930
+TRANSPORT	3558	GO:0006810   transport,    GOslim:biological_process	3	0.1166	1	AT3G01470 AT5G13930 AT1G22990
+CELLULAR_RESPONSE_TO_NUTRIENT_LEVELS	314	GO:0031669   cellular response to nutrient levels,    GOslim:biological_process	1	0.1042	1	AT1G22990
+ION_TRANSPORT	1016	GO:0006811   ion transport,    GOslim:biological_process	2	0.0466	1	AT3G01470 AT1G22990
+REGULATION_OF_BIOSYNTHETIC_PROCESS	2626	GO:0009889   regulation of biosynthetic process,    GOslim:biological_process	4	9.3e-3	1	AT3G01470 AT5G13930 AT1G22990 AT3G06740
+PROTEIN_BINDING	2684	GO:0005515   protein binding,    GOslim:molecular_function	2	0.2381	1	AT3G01470 AT5G13930
+YANT_NUCLEAR_RP_UNAMBIG_UP	732	Nuclear RP Up Unambig (Table S2 PubmedID:20675573)	1	0.2274	1	AT5G13930
+LEAF_LAMINA_BASE	12526	PO:0008019 leaf lamina base	4	0.7019	1	AT2G47400 AT5G13930 AT3G06740 AT5G02230
+COTYLEDON	12254	PO:0020030 cotyledon	3	0.8709	1	AT2G47400 AT5G13930 AT5G02230
+COFACTOR_METABOLIC_PROCESS	749	GO:0051186   cofactor metabolic process,    GOslim:biological_process	1	0.2321	1	AT3G01470
+LOCALIZATION	3799	GO:0051179   localization,    GOslim:biological_process	3	0.1355	1	AT3G01470 AT5G13930 AT1G22990
+CELL_PART	21652	GO:0044464   cell part,    GOslim:cellular_component	7	0.7816	1	AT2G47400 AT3G01470 AT4G35190 AT3G48280 AT5G13930 AT1G22990 AT3G06740
+NEGATIVE_REGULATION_OF_BIOLOGICAL_PROCESS	1215	GO:0048519   negative regulation of biological process,    GOslim:biological_process	1	0.3506	1	AT1G22990
+SHOOT_MORPHOGENESIS	523	GO:0010016   shoot morphogenesis,    GOslim:biological_process	1	0.1679	1	AT3G01470
+STEROID_METABOLIC_PROCESS	247	GO:0008202   steroid metabolic process,    GOslim:biological_process	1	0.0829	1	AT5G24910
+VACUOLAR_MEMBRANE	482	GO:0005774   vacuolar membrane,    GOslim:cellular_component	1	0.1557	1	AT5G13930
+LEAF_APEX	12751	PO:0020137 leaf apex	4	0.7192	1	AT2G47400 AT5G13930 AT3G06740 AT5G02230
+ALVES-FERREIRA_AP3ES_UP	1269	Up-regulated genes -ap3es (TableS1 PubmedID:17905860)	1	0.3632	1	AT3G60780
+REGULATION_OF_ANTHOCYANIN_METABOLIC_PROCESS	37	GO:0031537   regulation of anthocyanin metabolic process,    GOslim:biological_process	1	0.0131	1	AT5G13930
+NITROGEN_COMPOUND_METABOLIC_PROCESS	5653	GO:0006807   nitrogen compound metabolic process,    GOslim:biological_process	3	0.3116	1	AT3G01470 AT1G22990 AT3G06740
+GLUCOSE_CATABOLIC_PROCESS	474	GO:0006007   glucose catabolic process,    GOslim:biological_process	1	0.1533	1	AT2G47400
+REGULATION_OF_BIOLOGICAL_PROCESS	5191	GO:0050789   regulation of biological process,    GOslim:biological_process	4	0.089	1	AT3G01470 AT5G13930 AT1G22990 AT3G06740
+MA_ROOT_WL/D_UP	1657	Up-regulated in Root WL Vs. D (TableS8 PubmedID:15888681)	1	0.4475	1	AT5G13930
+ANATOMICAL_STRUCTURE_DEVELOPMENT	3344	GO:0048856   anatomical structure development,    GOslim:biological_process	1	0.7093	1	AT3G01470
+MA_COTYLEDON_LIGHT_UP	495	Light up-regulated  in Cot (TableS6 PubmedID:15888681)	1	0.1596	1	AT1G22990
+MACROMOLECULE_CATABOLIC_PROCESS	1248	GO:0009057   macromolecule catabolic process,    GOslim:biological_process	1	0.3583	1	AT2G47400
+MERIGOUT_CO(NH2)2_NH4NO3_ROOT_UP	550	Upregulated in root between [CO(NH2)2]- and [NH4NO3]-Arabidopsis grown plants (reference). (TableS1 PubmedID:18508958)	1	0.1758	1	AT4G35190
+CELLULAR_AROMATIC_COMPOUND_METABOLIC_PROCESS	1017	GO:0006725   cellular aromatic compound metabolic process,    GOslim:biological_process	1	0.3024	1	AT5G13930
+PORPHYRIN-CONTAINING_COMPOUND_METABOLIC_PROCESS	225	GO:0006778   porphyrin-containing compound metabolic process,    GOslim:biological_process	1	0.0758	1	AT3G01470
+KAUFMANN_RE-RATIO_CHX/DEX+CHX-TREATMENT_DN	538	Down-the Ratio-Split and Re-Ratio functions of Resolver 7.1 were used to computationally generate Chx vs. Dex+Chx comparisons, from which differentially expressed genes were selected with the same cutoffs indicated above. (Table S5 PubmedID:20360106)	1	0.1723	1	AT3G01470
+RESPONSE_TO_NITRATE	197	GO:0010167   response to nitrate,    GOslim:biological_process	1	0.0667	1	AT3G01470
+HEXOSE_CATABOLIC_PROCESS	476	GO:0019320   hexose catabolic process,    GOslim:biological_process	1	0.1539	1	AT2G47400
+DELESSERT_C24WP_DN	350	Repressed in C24 WP (TableS5 PubmedID:16115070)	1	0.1155	1	AT2G47400
+BIOSYNTHETIC_PROCESS	7941	GO:0009058   biosynthetic process,    GOslim:biological_process	5	0.1122	1	AT3G01470 AT5G24910 AT5G13930 AT1G22990 AT3G06740
+TIWARI_FIS1X2_BOTH-PLATFORM_DN	710	Down-fis1x2-List of genes that are upregulated or downregulated in both the platforms. (Table S3 PubmedID:20406451)	1	0.2213	1	AT1G22990
+REGULATION_OF_MACROMOLECULE_BIOSYNTHETIC_PROCESS	2488	GO:0010556   regulation of macromolecule biosynthetic process,    GOslim:biological_process	3	0.0489	1	AT3G01470 AT1G22990 AT3G06740
+POSITIVE_REGULATION_OF_CELLULAR_PROCESS	787	GO:0048522   positive regulation of cellular process,    GOslim:biological_process	1	0.2424	1	AT3G01470
+PETIOLE	12356	PO:0020038 petiole	4	0.6885	1	AT2G47400 AT5G13930 AT3G06740 AT5G02230
+VASCULAR_LEAF	14965	PO:0009025 vascular leaf	6	0.4273	1	AT2G47400 AT3G01470 AT5G13930 AT1G22990 AT3G06740 AT5G02230
+FLAVONOID_METABOLIC_PROCESS	250	GO:0009812   flavonoid metabolic process,    GOslim:biological_process	1	0.0839	1	AT5G13930
+CELLULAR_RESPONSE_TO_EXTERNAL_STIMULUS	353	GO:0071496   cellular response to external stimulus,    GOslim:biological_process	1	0.1164	1	AT1G22990
+KLEINE_GROWTH-LIGHT-3H-PHOTON_WT_UP	992	Up-regulated at least 2-fold after a shift from growth light (100 ?mol photons m-2 s-1) to 3 h 1000 ?mol photons m-2 s-1 in wild type (Table S1 PubmedID:17478635)	1	0.2961	1	AT5G13930
+BRASSINOSTEROID_BIOSYNTHETIC_PROCESS	117	GO:0016132   brassinosteroid biosynthetic process,    GOslim:biological_process	1	0.0403	1	AT5G24910
+SHOOT_APEX	14268	PO:0000037 shoot apex	6	0.3668	1	AT2G47400 AT4G35190 AT5G24910 AT5G13930 AT3G06740 AT5G02230
+COFACTOR_CATABOLIC_PROCESS	92	GO:0051187   cofactor catabolic process,    GOslim:biological_process	1	0.0318	1	AT3G01470
+CATALYTIC_ACTIVITY	8725	GO:0003824   catalytic activity,    GOslim:molecular_function	4	0.3591	1	AT3G48280 AT5G24910 AT5G13930 AT5G02230
+POSITIVE_REGULATION_OF_NITROGEN_COMPOUND_METABOLIC_PROCESS	475	GO:0051173   positive regulation of nitrogen compound metabolic process,    GOslim:biological_process	1	0.1536	1	AT3G01470
+TANG_BRM-5/ESSP3_LEAVES_DN	501	Downregulated in brm-5/essp3 Leaves (Table S2 PubmedID:18508955)	1	0.1614	1	AT1G22990
+KANNO_DMS4/DRD1_DN	1493	Down-Genes differentially regulated in dms4 compared to drd1. (Table S3 PubmedID:20010803)	1	0.4132	1	AT4G35190
+PESARESI_WS-2/COL-O_UP	993	Up-differentially regulated in WS-2 compared to Col-O. (Table S9 PubmedID:19706797)	1	0.2964	1	AT5G02230
+STAMEN	13845	PO:0009029 stamen	7	0.1428	1	AT2G47400 AT4G35190 AT5G24910 AT5G13930 AT1G22990 AT3G06740 AT5G02230
+RNA_METABOLIC_PROCESS	3725	GO:0016070   RNA metabolic process,    GOslim:biological_process	3	0.1296	1	AT3G01470 AT1G22990 AT3G06740
+DINNENY_END-RADIAL_FE-DEPRIVATION_DN	286	Significant down-regulation in  END of radial  in response to iron-deprivation (Table S2 PubmedID:18436742)	1	0.0954	1	AT2G47400
+RAMONELL_CRAB-SHELL-CHITIN-TREATED_CHITO-OCTAMER-TREATED_SEEDLING_UP	1000	Induced at Least 1.5-Fold in the Crab Shell Chitin Mixture- and Chito-octamer-Treated Seedlings (Table S 3 PubmedID:15923325)	1	0.2981	1	AT5G02230
+INTRACELLULAR_ORGANELLE_PART	3359	GO:0044446   intracellular organelle part,    GOslim:cellular_component	2	0.3291	1	AT2G47400 AT5G13930
+CELL_COMMUNICATION	705	GO:0007154   cell communication,    GOslim:biological_process	1	0.2199	1	AT1G22990
+CELLULAR_KETONE_METABOLIC_PROCESS	2121	GO:0042180   cellular ketone metabolic process,    GOslim:biological_process	1	0.5351	1	AT5G13930
+PESARESI_STN7-1PSAD1-1MUTANT/WS-2_DN	295	Down-regulated in the stn7-1 psae1-3 mutant compared to WS-2. (Table S7 PubmedID:19706797)	1	0.0982	1	AT5G13930
+HYDROLASE_ACTIVITY	3072	GO:0016787   hydrolase activity,    GOslim:molecular_function	1	0.6767	1	AT5G02230
+ALVES-FERREIRA_MS1-WHOLE-INFLORESCENCE_DN	633	Down-regulated genes -ms1 (whole inflorescence) (TableS1 PubmedID:17905860)	1	0.1997	1	AT5G13930
+KAUFMANN_WT/AG-MUTANT_BOLTING_DN	1232	Down-regulated wt vs ag mutant after bolting (Table S2 PubmedID:19385720)	1	0.3546	1	AT5G24910
+CHLOROPHYLL_CATABOLIC_PROCESS	58	GO:0015996   chlorophyll catabolic process,    GOslim:biological_process	1	0.0203	1	AT3G01470
+KLEINE_GROWTH-LIGHT-3H-BLUE-LIGHT_UP	858	Up-regulated at least 2-fold after a shift from growth light (100 ?mol photons m-2 s-1) to 3 h high fluence blue light (200 ?mol photons m-2 s-1) (Table S2 PubmedID:17478635)	1	0.2614	1	AT5G13930
+ALVES-FERREIRA_SPL/NZZ_DN	320	Down-regulated genes -spl/nzz (TableS1 PubmedID:17905860)	1	0.1061	1	AT5G13930
+PETAL	14576	PO:0009032 petal	7	0.1829	1	AT2G47400 AT3G60780 AT4G35190 AT5G24910 AT5G13930 AT3G06740 AT5G02230
+CELLULAR_METABOLIC_PROCESS	11467	GO:0044237   cellular metabolic process,    GOslim:biological_process	5	0.3632	1	AT2G47400 AT3G01470 AT5G13930 AT1G22990 AT3G06740
+POSITIVE_REGULATION_OF_METABOLIC_PROCESS	617	GO:0009893   positive regulation of metabolic process,    GOslim:biological_process	1	0.1951	1	AT3G01470
+GAETA_ALLOPOLYPLOID/PARENT-MIX5250_COMMONVAR_UP	414	Up-regulated genes that were nonadditively expressed in allopolyploid line 1200 relative to the 1:1 parent mix--parentmix_5250_FDR_CommonVar (Dataset S5 PubmedID:19274085)	1	0.1352	1	AT5G13930
+ENVELOPE	925	GO:0031975   envelope,    GOslim:cellular_component	1	0.2789	1	AT2G47400
+CELLULAR_RESPONSE_TO_STARVATION	300	GO:0009267   cellular response to starvation,    GOslim:biological_process	1	0.0998	1	AT1G22990
+CELLULAR_MACROMOLECULE_BIOSYNTHETIC_PROCESS	5231	GO:0034645   cellular macromolecule biosynthetic process,    GOslim:biological_process	3	0.2681	1	AT3G01470 AT1G22990 AT3G06740
+NEGATIVE_REGULATION_OF_MACROMOLECULE_METABOLIC_PROCESS	617	GO:0010605   negative regulation of macromolecule metabolic process,    GOslim:biological_process	1	0.1951	1	AT1G22990
+REGULATION_OF_SECONDARY_METABOLIC_PROCESS	157	GO:0043455   regulation of secondary metabolic process,    GOslim:biological_process	1	0.0536	1	AT5G13930
+COLLECTIVE_LEAF_STRUCTURE	15671	PO:0025022 collective leaf structure	7	0.2548	1	AT2G47400 AT3G60780 AT4G35190 AT5G24910 AT5G13930 AT3G06740 AT5G02230
+ZINC_ION_BINDING	1508	GO:0008270   zinc ion binding,    GOslim:molecular_function	1	0.4164	1	AT3G06740
+GREGORY_ABH1-MUTATION_DN	743	Down-regulated upon ABH1 mutation (abh1-1) (TableS1 PubmedID:18486559)	1	0.2304	1	AT3G60780
+KAKIZAKI_PPI2-1-TAG_UP	833	Up-regulated tags in ppi2-1. (Table S2 PubmedID:19726569)	1	0.2548	1	AT3G01470
+REGULATION_OF_NITROGEN_COMPOUND_METABOLIC_PROCESS	2509	GO:0051171   regulation of nitrogen compound metabolic process,    GOslim:biological_process	3	0.05	1	AT3G01470 AT1G22990 AT3G06740
+REGULATION_OF_FLAVONOID_BIOSYNTHETIC_PROCESS	124	GO:0009962   regulation of flavonoid biosynthetic process,    GOslim:biological_process	1	0.0426	1	AT5G13930
+CELLULAR_MACROMOLECULE_CATABOLIC_PROCESS	1201	GO:0044265   cellular macromolecule catabolic process,    GOslim:biological_process	1	0.3473	1	AT2G47400
+OXIDATION-REDUCTION_PROCESS	1368	GO:0055114   oxidation-reduction process,    GOslim:biological_process	2	0.079	1	AT3G48280 AT5G24910
