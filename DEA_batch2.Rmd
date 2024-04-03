@@ -1,0 +1,316 @@
+```{r}
+library(DESeq2)
+library(magrittr)
+library(pheatmap)
+library(dendsort)
+library(ggplot2)
+```
+
+Set global variables
+```{r}
+batch <- "Batch2"
+control <- "CK"
+exclude <- c("LITR_R2")
+```
+
+
+```{r}
+# define callback function
+callback = function(hc, ...){dendsort(hc)}
+
+# define tell_batch function
+tell_batch <- function(x, exclude){
+  if(x %in% exclude) {return("Excluded")}
+  ifelse(grepl("CK|LETC|LITR", x), "Batch2", "Batch1")
+}
+
+# define run function
+run <- function(cmd) {
+  cat(">", cmd, "\n", eval(parse(text = cmd)), "\n")
+}
+```
+
+Get batch data
+```{r}
+cts <- as.matrix(
+  read.table(
+    "outputs/rsem-dmat/all.rcounts.genes.matrix",
+    row.names = 1
+  )
+)
+gnames <- colnames(cts) %>% sapply(function(x){strsplit(x, "[.]")[[1]][5]})
+colnames(cts) <- gnames
+cts <- cts[, sapply(gnames, tell_batch, exclude = exclude) == batch]
+
+
+# filtering before plotting gene expression heat map
+keep10 <- rowAnys(cts > 10)
+any_gt10 <- cts[keep10, ]
+
+# check dim 
+run("dim(any_gt10); # dim after")
+```
+```{r}
+summary(any_gt10)
+```
+Plot read count heat map
+```{R}
+any_gt10 <- any_gt10[
+  order(
+    rowSums(any_gt10[, grep(control, colnames(any_gt10))]),
+    decreasing = TRUE
+  ),
+]
+pheatmap(
+  log10(any_gt10 + 1),
+  cluster_rows=FALSE,
+  cluster_cols=TRUE,
+  show_rownames = FALSE,
+  color = colorRampPalette(c("navy", "white", "firebrick3"))(10),
+  clustering_callback = callback,
+  scale = "column",
+  na_col = "green",
+  cutree_cols = 3,
+  filename = sprintf(
+    "outputs/rmd-output/ge_heatmap_log10RC_%s_mask=all_lt10_sort_by=%s_scale_by=col_cluster_col=T.png",
+    batch,
+    control
+  )
+)
+```
+
+
+
+Set global variables
+```{r}
+condition <- colnames(any_gt10) %>% 
+  sapply(function(x){strsplit(x, "_")[[1]][1]})
+treatments <- unique(condition)[unique(condition) != control]
+condition <- factor(condition, level = c(control, treatments))
+```
+
+
+Create DESeqDataSet
+```{R}
+dds <- DESeqDataSetFromMatrix(
+  countData = any_gt10 %>% round,
+  colData = DataFrame(condition),
+  ~ condition
+)
+```
+
+DESeq analysis
+```{R}
+dds <- DESeq(dds)
+```
+
+Save DESeq result to RDS
+```{R}
+# saveRDS(dds, file = sprintf("outputs/rmd-output/deseq.%s.RDS", batch))
+```
+
+Write DESeq results to csv
+```{r}
+dds <- readRDS(sprintf("outputs/rmd-output/deseq.%s.RDS", batch))
+FDR <- .05
+FCT <- 1.5
+# tosave <- mcols(dds) %>% colnames
+# de_table <- results(
+#   dds,
+#   alpha = FDR,
+#   lfcThreshold = FCT,
+#   saveCols = tosave) %>% 
+#   as.data.frame
+abd_table <- as.data.frame(any_gt10)
+for (t in treatments) {
+  de_tmp <- as.data.frame(
+        results(
+          dds,
+          contrast = c("condition", t, control),
+          alpha = FDR,
+          lfcThreshold = FCT
+        )
+      )
+  colnames(de_tmp) <- 
+    sapply(
+      colnames(de_tmp),
+      function(x){
+        paste0(x, ".",  t)
+      }
+    ) %>% unlist
+  abd_table <- 
+    cbind(
+      abd_table,
+      de_tmp
+    )
+}
+write.table(
+  abd_table,
+  sprintf("outputs/rmd-output/%s.csv", batch),
+  sep = ","
+)
+```
+
+Draw volcano plots (Facet grid)
+```{R}
+FDR = .05
+FCT = 1.5
+
+df_all <- data.frame()
+for (ctrl in levels(condition)) {
+  for (trtm in levels(condition)[levels(condition) != ctrl]) {
+    res <- results(
+      dds,
+      alpha = FDR,
+      lfcThreshold = FCT,
+      contrast = c("condition", trtm, ctrl)
+    )
+    
+    # describe res
+    if (ctrl == control) {
+      print(sprintf("control = %s; treatment = %s", ctrl, trtm))
+      summary(res)
+    }
+    
+    # as data.frame
+    res_df <- as.data.frame(res)
+    res_df$control_cond <- ctrl
+    res_df$treatment_cond <- trtm
+    
+    # add column diffexpressed
+    res_df$diffexpressed <- "NO"
+    res_df$diffexpressed[res_df$log2FoldChange > FCT & res_df$padj < FDR] <- "UP"
+    res_df$diffexpressed[res_df$log2FoldChange < -FCT & res_df$padj < FDR] <- "DOWN"
+    
+    # add label
+    res_df$delabel <- NA
+    res_df$delabel[res_df$diffexpressed != "NO"] <- rownames(res_df)[res_df$diffexpressed != "NO"]
+    
+    df_all <- rbind(df_all, res_df)
+  }
+}
+```
+
+Draw facet grid of volcano plots (continued)
+```{R}
+png(
+  filename=sprintf(
+    "outputs/rmd-output/volcano_Facet_grid_%s_row=treatment_col=ctrl.png",
+    batch
+  ),
+  width=1000,
+  height=1000
+)
+
+# draw
+ggplot(
+ data = df_all,
+ mapping = aes(
+   x = log2FoldChange,
+   y = -log10(padj),
+   col = diffexpressed,
+   label=delabel
+ )
+) +
+  facet_grid(
+    cols = vars(control_cond),
+    rows = vars(treatment_cond)
+  ) +
+  geom_point(size=.5) +
+  theme_minimal()
+
+# dev
+dev.off()
+```
+Draw facet grid of volcano plots (1 row, control == Water)
+```{R}
+png(
+  filename=sprintf(
+    "outputs/rmd-output/volcano_Facet_grid_%s_row=%s_col=treatment.png",
+    batch,
+    control
+  ),
+  width=400 * length(treatments),
+  height=400
+)
+
+# draw
+ggplot(
+ data = df_all[df_all["control_cond"] == control, ],
+ mapping = aes(
+   x = log2FoldChange,
+   y = -log10(padj),
+   col = diffexpressed,
+   label=delabel
+ )
+) +
+  facet_grid(
+    cols = vars(treatment_cond),
+  ) +
+  geom_point(size=1) +
+  theme_minimal() +
+  scale_colour_manual(values = c(
+    "UP" = "red",
+    "NO" = "grey",
+    "DOWN" = "blue"
+  ))
+
+# dev
+dev.off()
+```
+
+Draw volcano plots
+```{R}
+FDR = .05
+FCT = 1.5
+for (trtm in levels(condition)[levels(condition) != control]) {
+  res <- results(
+    dds,
+    alpha = FDR,
+    lfcThreshold = FCT,
+    contrast = c("condition", trtm, control)
+  )
+  res_df <- as.data.frame(res)
+  res_df$control_cond <- control
+  res_df$treatment_cond <- trtm
+  
+  # add column diffexpressed
+  res_df$diffexpressed <- "NO"
+  res_df$diffexpressed[res_df$log2FoldChange > FCT & res_df$padj < FDR] <- "UP"
+  res_df$diffexpressed[res_df$log2FoldChange < -FCT & res_df$padj < FDR] <- "DOWN"
+  
+  # add label
+  res_df$delabel <- NA
+  res_df$delabel[res_df$diffexpressed != "NO"] <- rownames(res_df)[res_df$diffexpressed != "NO"]
+  
+  # draw
+  p <- ggplot(
+    data = res_df,
+    mapping = aes(
+      x = log2FoldChange,
+      y = -log10(padj),
+      col = diffexpressed,
+      label=delabel
+    )
+  ) +
+    geom_point(size=1) +
+    theme_minimal() +
+    ggtitle(paste(trtm, "vs.", control, "FDR < 0.05; |log2FC| > 1.5")) +
+    scale_colour_manual(values = c(
+      "UP" = "red",
+      "NO" = "grey",
+      "DOWN" = "blue"
+    ))
+
+
+  # save
+  ggplot2::ggsave(
+    filename = sprintf(
+      "outputs/rmd-output/volcano_%s_vs._%s.png",
+      control,
+      trtm
+    ),
+    plot = p
+  )
+}
+```

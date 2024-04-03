@@ -1,0 +1,139 @@
+Performing Differential Expression Analysis on Ginger RNA-seq Data Using DESeq2
+
+1. Setup Environment
+```{R}
+library(DESeq2)
+library(magrittr)
+summary_fout = "outputs/rmd-output/deseq2.summary"
+```
+
+2. Load gene expression matrix
+```{R}
+# import data matrix
+cts <- as.matrix(
+  read.table(
+    "outputs/rsem-dmat/all.rcounts.genes.matrix",
+    row.names = 1
+  )
+)
+
+# sort cts by average gene expression level in group Water
+cts <- cts[order(rowSums2(cts[,c(25, 26, 27)])),]
+
+# get group name from column name
+gnames <- colnames(cts) %>% sapply(function(x){strsplit(x, "[.]")[[1]][5]})
+
+# get condition from group name
+condition <- gnames %>% 
+  sapply(function(x){strsplit(x, "_")[[1]][1]})
+
+# factorize condition (with level of water = 1)
+treatments <- unique(condition)[unique(condition) != "Water"]
+condition <- factor(
+  condition,
+  level = c("Water", treatments)
+)
+
+
+# remove column name
+colnames(cts) <- NULL
+
+# create DESeqDataSet
+dds <- DESeqDataSetFromMatrix(
+  countData = cts %>% round,
+  colData = DataFrame(condition),
+  ~ condition
+)
+```
+3. DESeq analysis
+```{R}
+dds <- DESeq(dds)
+```
+4. Show results
+```{R}
+resultsNames(dds)
+```
+5. Get results
+```{R}
+FDR <- 0.05
+FCT <- 1.5
+log2fc_mat <- matrix(nrow = nrow(dds), ncol = 0)
+cnames <- c()
+for (treatment in treatments) {
+  res <- results(
+    dds,
+    alpha = FDR,
+    lfcThreshold = FCT,
+    contrast = c("condition", treatment, "Water")
+  )
+  # res <- lfcShrink(
+  #   dds,
+  #   coef = sprintf("condition_%s_vs_Water", treatment),
+  #   type="apeglm"
+  # )
+  cat("treatment = ", treatment)
+  summary(res)
+  
+  # mask log2FoldChange where padj is not NA or is > 0.05
+  to_mask <- res$padj > 0.05
+  to_mask[is.na(to_mask)] <- TRUE
+  res[to_mask, "log2FoldChange"] <- NA
+  
+  # add fold change column
+  log2fc_mat <- cbind(log2fc_mat, res$log2FoldChange)
+  
+  # add column name
+  cnames <- append(cnames, treatment)
+}
+colnames(log2fc_mat) <- cnames
+rownames(log2fc_mat) <- rownames(dds)
+```
+6. Visualize results
+```{R}
+library(pheatmap)
+library(dendsort)
+
+# exclude rows that shows all NA across all sample
+all_na <- apply(log2fc_mat, MARGIN = 1, FUN = function(x){all(is.na(x))}) %>% 
+  as.vector()
+data <- log2fc_mat[!all_na, ]
+
+# # exclude rows where all groups show absolute log2 fold change < 1.5
+# data <- data[!rowAlls(abs(data) < 1.5), ]
+
+# exclude row where all groups show adjusted p-value < 0.05
+
+
+# plot heat map
+# callback = function(hc, mat){
+#     sv = svd(t(mat))$v[,1]
+#     dend = reorder(as.dendrogram(hc), wts = sv)
+#     as.hclust(dend)
+# }
+
+# define callback
+callback = function(hc, ...){dendsort(hc)}
+pheatmap(
+  data, 
+  cluster_rows=FALSE,
+  cluster_cols=FALSE,
+  show_rownames = FALSE,
+  color = colorRampPalette(c("navy", "white", "firebrick3"))(10),
+  clustering_callback = callback,
+  na_col = "white"
+)
+```
+
+
+Try log2fc shrinkage
+```{R}
+resLFC <- lfcShrink(dds, coef="condition_CK_vs_Water", type="apeglm")
+```
+
+
+
+
+
+
+
+

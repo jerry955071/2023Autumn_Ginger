@@ -1,0 +1,323 @@
+# GSEA
+
+### Setup environment
+
+```{r}
+library(DESeq2)
+library(magrittr)
+```
+
+### Get ginger vs *A. thaliana* blastp results
+
+Ginger protein -\> *A. thaliana* protein
+
+```{r}
+blastp_res <- read.table(
+  file = "outputs/blastp/ginger_vs_ath.tsv",
+  header = FALSE,
+  sep = "\t"
+)
+head(blastp_res)
+
+```
+
+### Get protein ID -\> gene ID relationship for ginger and *A. thaliana*
+
+#### Define GTF utils
+
+Define parser for GTF attributes
+
+```{r}
+parse_attribute <- function(string) {
+  tmp <- string %>%
+    trimws(., which = "both") %>%
+    strsplit(., ";") %>%
+    unlist %>%
+    trimws(., which = "both") %>%
+    strsplit(., " ")
+  out <- c()
+  for (i in tmp) {
+    out[i[1]] = paste(i[-1], collapse = " ")
+  }
+  return(out)
+}
+```
+
+GTF header
+
+```{r}
+gtf_header <- c(
+  "seqname",
+  "source",
+  "feature",
+  "start",
+  "end",
+  "score",
+  "strand",
+  "frame",
+  "attributes"
+)
+```
+
+1.  Ginger
+
+```{r}
+# import gtf
+ginger_gtf <- read.table(
+  file = "references/ncbi_dataset/data/GCF_018446385.1/genomic_modified.gtf",
+  sep = "\t",
+  header = FALSE,
+  col.names = gtf_header,
+  comment.char = "#"
+)
+
+# find every first CDS lines of each protein coding gene
+cds_lines <- ginger_gtf$feature == "CDS"
+every_first_cds <- 
+  (cds_lines & c(FALSE, !cds_lines[-length(cds_lines)])) %>% 
+  which
+
+# get protein ID and gene ID from parsed attributes
+ginger_p2g <- matrix(
+  ncol = 2,
+  nrow = length(every_first_cds)
+)
+j <- 1
+for (nth_row in every_first_cds) {
+  attrs <- parse_attribute(ginger_gtf$attributes[nth_row])
+  ginger_p2g[j, 1] <- attrs["protein_id"]
+  ginger_p2g[j, 2] <- attrs["gene_id"]
+  j <- j + 1
+}
+
+# set row name of the matrix as protein ID
+rownames(ginger_p2g) <- ginger_p2g[, 1]
+colnames(ginger_p2g) <- c("pid", "gid")
+```
+
+2.  *A. thaliana*
+
+```{r}
+ath_annot_info <- read.table(
+  file = "references/ath/Phytozome/PhytozomeV12/Athaliana/annotation/Athaliana_167_TAIR10.annotation_info.txt",
+  header = TRUE,
+  sep = "\t",
+  comment.char = ""
+)
+head(ath_annot_info)
+ath_p2g <- ath_annot_info[, c("peptideName", "locusName")] %>% as.matrix
+colnames(ath_p2g) <- c("pid", "gid")
+rownames(ath_p2g) <- ath_p2g[, 1]
+```
+
+### Get Batch 1 DESeq2 results
+
+```{r}
+dds <- readRDS(file = "outputs/rmd-output/deseq.Batch1.RDS")
+resnames <- DESeq2::resultsNames(dds)
+print(resnames)
+```
+
+#### Group "condition_RKN_vs_Water"
+
+Get DEGs
+
+```{r}
+FDR <- 0.05
+FCThreashold <- 1.5
+name <- resnames[6]
+res <- results(
+    dds,
+    alpha = FDR,
+    lfcThreshold = FCThreashold,
+    name = name
+)
+res
+```
+
+```{r}
+DEGs_up <- subset(
+  res,
+  (res$padj < 0.05) & (res$log2FoldChange > 1.5)
+) %>% rownames
+DEGs_dn <- subset(
+  res,
+  (res$padj < 0.05) & (res$log2FoldChange < -1.5)
+) %>% rownames
+```
+
+Match Ginger DEG gene ID to *A. thaliana* gene ID
+
+1.  Up-regulated
+
+```{r}
+curated_gp2g <- subset(ginger_p2g, (ginger_p2g[, 2] %in% DEGs_up))
+curated_blastp_res <- subset(blastp_res, blastp_res$V1 %in% curated_gp2g[, 1])
+curated_blastp_res$apid <- curated_blastp_res$V2 %>% sapply(
+  function(x){strsplit(x, split = "[|]") %>% unlist %>% extract(1)}
+)
+# curated_ap2g <- subset(ath_p2g, ath_p2g[, 1] %in% curated_blastp_res$apid)
+# ggids <- curated_blastp_res$V1 %>% 
+#   sapply(.,
+#     function(x) {
+#       curated_gp2g[x, 2]
+#     }
+#   )
+agids_up <- curated_blastp_res$apid %>%
+  sapply(.,
+    function(x) {
+      strsplit(x, split = "[.]") %>% unlist %>% extract(1)
+    }
+  ) %>% 
+  unname
+cat(
+  agids_up,
+  sep = "\n",
+  file = sprintf("outputs/rmd-output/%s.up.txt", name)
+)
+```
+
+Results retrieved from PlantGSEA
+
+```{bash}
+wget \
+  --directory-prefix=outputs/PlantGSEA/condition_RKN_vs_Water/up/ \
+  http://structuralbiology.cau.edu.cn/PlantGSEA/tmp/936068885.sorted_detail2
+```
+
+2.  Down-regulated
+
+```{r}
+curated_gp2g <- subset(ginger_p2g, (ginger_p2g[, 2] %in% DEGs_dn))
+curated_blastp_res <- subset(blastp_res, blastp_res$V1 %in% curated_gp2g[, 1])
+curated_blastp_res$apid <- curated_blastp_res$V2 %>% sapply(
+  function(x){strsplit(x, split = "[|]") %>% unlist %>% extract(1)}
+)
+# curated_ap2g <- subset(ath_p2g, ath_p2g[, 1] %in% curated_blastp_res$apid)
+# ggids <- curated_blastp_res$V1 %>% 
+#   sapply(.,
+#     function(x) {
+#       curated_gp2g[x, 2]
+#     }
+#   )
+agids_dn <- curated_blastp_res$apid %>%
+  sapply(.,
+    function(x) {
+      strsplit(x, split = "[.]") %>% unlist %>% extract(1)
+    }
+  ) %>% 
+  unname
+cat(
+  agids_dn,
+  sep = "\n",
+  file = sprintf("outputs/rmd-output/%s.dn.txt", name)
+)
+```
+
+```{bash}
+wget \
+  --directory-prefix=outputs/PlantGSEA/condition_RKN_vs_Water/down/ \
+  http://structuralbiology.cau.edu.cn/PlantGSEA/tmp/601987873.sorted_detail2
+```
+
+#### Group "condition_Clean_vs_Water"
+
+Get DEGs
+
+```{r}
+FDR <- 0.05
+FCThreashold <- 1.5
+name <- "condition_Clean_vs_Water"
+res <- results(
+    dds,
+    alpha = FDR,
+    lfcThreshold = FCThreashold,
+    name = name
+)
+res
+```
+
+```{r}
+DEGs_up <- subset(
+  res,
+  (res$padj < 0.05) & (res$log2FoldChange > 1.5)
+) %>% rownames
+DEGs_dn <- subset(
+  res,
+  (res$padj < 0.05) & (res$log2FoldChange < -1.5)
+) %>% rownames
+```
+
+Match Ginger DEG gene ID to *A. thaliana* gene ID
+
+1.  Up-regulated
+
+```{r}
+curated_gp2g <- subset(ginger_p2g, (ginger_p2g[, 2] %in% DEGs_up))
+curated_blastp_res <- subset(blastp_res, blastp_res$V1 %in% curated_gp2g[, 1])
+curated_blastp_res$apid <- curated_blastp_res$V2 %>% sapply(
+  function(x){strsplit(x, split = "[|]") %>% unlist %>% extract(1)}
+)
+# curated_ap2g <- subset(ath_p2g, ath_p2g[, 1] %in% curated_blastp_res$apid)
+# ggids <- curated_blastp_res$V1 %>% 
+#   sapply(.,
+#     function(x) {
+#       curated_gp2g[x, 2]
+#     }
+#   )
+agids_up <- curated_blastp_res$apid %>%
+  sapply(.,
+    function(x) {
+      strsplit(x, split = "[.]") %>% unlist %>% extract(1)
+    }
+  ) %>% 
+  unname
+cat(
+  agids_up,
+  sep = "\n",
+  file = sprintf("outputs/rmd-output/%s.up.txt", name)
+)
+```
+
+Results retrieved from PlantGSEA
+
+```{bash}
+wget \
+  --directory-prefix=outputs/PlantGSEA/condition_Clean_vs_Water/up/ \
+
+```
+
+2.  Down-regulated
+
+```{r}
+curated_gp2g <- subset(ginger_p2g, (ginger_p2g[, 2] %in% DEGs_dn))
+curated_blastp_res <- subset(blastp_res, blastp_res$V1 %in% curated_gp2g[, 1])
+curated_blastp_res$apid <- curated_blastp_res$V2 %>% sapply(
+  function(x){strsplit(x, split = "[|]") %>% unlist %>% extract(1)}
+)
+# curated_ap2g <- subset(ath_p2g, ath_p2g[, 1] %in% curated_blastp_res$apid)
+# ggids <- curated_blastp_res$V1 %>% 
+#   sapply(.,
+#     function(x) {
+#       curated_gp2g[x, 2]
+#     }
+#   )
+agids_dn <- curated_blastp_res$apid %>%
+  sapply(.,
+    function(x) {
+      strsplit(x, split = "[.]") %>% unlist %>% extract(1)
+    }
+  ) %>% 
+  unname
+cat(
+  agids_dn,
+  sep = "\n",
+  file = sprintf("outputs/rmd-output/%s.dn.txt", name)
+)
+```
+
+```{bash}
+wget \
+  --directory-prefix=outputs/PlantGSEA/condition_Clean_vs_Water/down/ \
+  
+```
