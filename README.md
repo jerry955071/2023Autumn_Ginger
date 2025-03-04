@@ -22,8 +22,8 @@ The analysis is consist of 2 parts:
 
 
 The 5 volcano plots to be reproduced:  
-<img src="https://github.com/jerry955071/2023Autumn_Ginger/blob/main/volcano_Water_vs._Black.png" width="300" height="300">
-<img src="https://github.com/jerry955071/2023Autumn_Ginger/blob/main/volcano_Water_vs._Chitin.png" width="300" height="300">
-<img src="https://github.com/jerry955071/2023Autumn_Ginger/blob/main/volcano_Water_vs._Clean.png" width="300" height="300">
-<img src="https://github.com/jerry955071/2023Autumn_Ginger/blob/main/volcano_Water_vs._KHY26.png" width="300" height="300">
-<img src="https://github.com/jerry955071/2023Autumn_Ginger/blob/main/volcano_Water_vs._RKN.png" width="300" height="300"> 
+<img src="https://github.com/jerry955071/2023Autumn_Ginger/blob/main/volcano_Water_vs._Black.png" width="250" height="250">
+<img src="https://github.com/jerry955071/2023Autumn_Ginger/blob/main/volcano_Water_vs._Chitin.png" width="250" height="250">
+<img src="https://github.com/jerry955071/2023Autumn_Ginger/blob/main/volcano_Water_vs._Clean.png" width="250" height="250">
+<img src="https://github.com/jerry955071/2023Autumn_Ginger/blob/main/volcano_Water_vs._KHY26.png" width="250" height="250">
+<img src="https://github.com/jerry955071/2023Autumn_Ginger/blob/main/volcano_Water_vs._RKN.png" width="250" height="250"> 
