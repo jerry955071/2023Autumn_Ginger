@@ -19,4 +19,11 @@ The analysis is consist of 2 parts:
     2-3. GO enrichment analysis (with PlantGSEA)  
     GO_enrichment_analysis_batch1.Rmd   
     GO_enrichment_analysis_batch2.Rmd
-    
+
+
+The 5 volcano plots to be reproduced:  
+<img src="https://github.com/jerry955071/2023Autumn_Ginger/blob/main/volcano_Water_vs._Black.png" width="300" height="300">
+<img src="https://github.com/jerry955071/2023Autumn_Ginger/blob/main/volcano_Water_vs._Chitin.png" width="300" height="300">
+<img src="https://github.com/jerry955071/2023Autumn_Ginger/blob/main/volcano_Water_vs._Clean.png" width="300" height="300">
+<img src="https://github.com/jerry955071/2023Autumn_Ginger/blob/main/volcano_Water_vs._KHY26.png" width="300" height="300">
+<img src="https://github.com/jerry955071/2023Autumn_Ginger/blob/main/volcano_Water_vs._RKN.png" width="300" height="300"> 
