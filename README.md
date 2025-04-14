@@ -1,5 +1,8 @@
 # 2023Autumn_Ginger
 
+The raw data is at:
+/home/woodydrylab/YCLlab_raw_data/Short-term/download_20230920_RNA_Ginger_root/rawdata/H201SC23051673_SAM20230824056/1xRNAseq_lib_H201SC23051673_SAM20230824056/01.RawData
+
 The analysis is consist of 2 parts:  
 1. Snakemake pipeline consist of rules for:  
     1-1. QC fastq  
